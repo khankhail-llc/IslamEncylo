@@ -1,9 +1,3 @@
-/* eslint-disable react/jsx-one-expression-per-line */
-/* eslint-disable react-native/no-raw-text */
-/* eslint-disable react/jsx-indent */
-/* eslint-disable react/jsx-indent-props */
-/* eslint-disable no-undef */
-/* eslint-disable no-use-before-define */
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
@@ -11,7 +5,7 @@
  * @format
  */
 
-import type { PropsWithChildren } from 'react';
+import type react from 'react';
 import React from 'react';
 import {
   SafeAreaView,
@@ -25,7 +19,7 @@ import {
 
 import { Colors, Header } from 'react-native/Libraries/NewAppScreen';
 
-type SectionProps = PropsWithChildren<{
+type SectionProps = react.PropsWithChildren<{
   title: string;
 }>;
 
@@ -78,8 +72,9 @@ function App(): JSX.Element {
           }}
         >
           <Section title="Welcome">
-            <Text style={styles.highlight}>Islam Encyclopedia</Text>
-            is the very first app from developers of khankhail-llc.
+            <Text style={styles.highlight}>
+              Islam Encyclopedia is the very first app from developers of khankhail-llc.
+            </Text>
           </Section>
         </View>
       </ScrollView>

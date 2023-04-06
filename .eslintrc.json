@@ -1,64 +1,70 @@
 {
-    "env": {
-      "es2021": true,
-      "node": true,
-      "react-native/react-native": true
+  "env": {
+    "es2021": true,
+    "node": true,
+    "react-native/react-native": true,
+    "jest": true
+  },
+
+  "globals": {
+    "JSX": "readonly"
+  },
+
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "standard-with-typescript",
+    "prettier",
+    "plugin:react-native/all",
+    "plugin:@typescript-eslint/recommended",
+    "airbnb",
+    "airbnb/hooks"
+  ],
+
+  "plugins": ["react", "react-native", "@typescript-eslint"],
+
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
     },
-    "globals": {
-      "jsx": "readonly"
-    },
-    "extends": [
-      "eslint:recommended",
-      "plugin:react/recommended",
-      "standard-with-typescript",
-      "prettier",
-      "plugin:react-native/all",
-      "plugin:@typescript-eslint/recommended",
-      "airbnb",
-      "airbnb/hooks"
-    ],
-    "overrides": [],
-    "parser": "@typescript-eslint/parser",
-    "parserOptions": {
-      "ecmaFeatures": {
-        "jsx": true
-      },
-      "ecmaVersion": 12,
-      "sourceType": "module",
-      "project": "./tsconfig.json"
-    },
-    "plugins": [
-      "react",
-      "react-native",
-      "@typescript-eslint"
-    ],
-    "settings": {
-      "react": {
-        "version": "detect"
-      }
-    },
-    "rules": {
-      "semi": [
-        "error",
-        "always"
-      ],
-      "react/jsx-filename-extension": [
-        2,
-        {
-          "extensions": [
-            ".js",
-            ".jsx",
-            ".ts",
-            ".tsx"
-          ]
-        }
-      ],
-      "@typescript-eslint/dot-notation": [
-        "error",
-        {
-          "allowKeywords": true
-        }
-      ]
-    }
-  }
+    "ecmaVersion": 12,
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
   
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+
+  "rules": {
+    "semi": ["error", "always"],
+    "no-var": "error",
+    "react/jsx-filename-extension": [
+      2,
+      {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    ],
+    "no-use-before-define": ["error", { "variables": false }],
+    "react/prop-types": ["error", { "ignore": ["navigation", "navigation.navigate"] }],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
+    "@typescript-eslint/dot-notation": [
+      "error",
+      {
+        "allowKeywords": true
+      }
+    ]
+  }
+}
