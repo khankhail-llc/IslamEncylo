@@ -1,6 +1,7 @@
 #import "AppDelegate.h"
 
 #import <React/RCTBundleURLProvider.h>
+#import "RNSplashScreen.h"
 
 @implementation AppDelegate
 
@@ -22,6 +23,7 @@
   return [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
 #endif
 }
+ [RNSplashScreen show];
 
 /// This method controls whether the `concurrentRoot`feature of React18 is turned on or off.
 ///

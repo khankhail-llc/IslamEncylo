@@ -32,32 +32,59 @@
     "sourceType": "module",
     "project": "./tsconfig.json"
   },
-  
+
   "settings": {
     "react": {
       "version": "detect"
+    },
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
     }
   },
 
   "rules": {
     "semi": ["error", "always"],
     "no-var": "error",
+    "global-require": "off",
+    "linebreak-style": ["error", "unix"],
+    "react-native/no-color-literals": "off",
+    "import/no-dynamic-require": "off",
+    "react/jsx-indent-props": [2, 6],
+    "import/no-useless-path-segments": [
+      "error",
+      {
+        "noUselessIndex": true
+      }
+    ],
     "react/jsx-filename-extension": [
       2,
       {
         "extensions": [".js", ".jsx", ".ts", ".tsx"]
       }
     ],
+    "no-console": "off",
+    "no-color-literals": "off",
     "no-use-before-define": ["error", { "variables": false }],
     "react/prop-types": ["error", { "ignore": ["navigation", "navigation.navigate"] }],
+    "import/no-unresolved": [
+      "error",
+      {
+        "caseSensitive": true,
+        "ignore": ["\\.(png|jpg|jpeg|gif|svg)$", "^./src/"]
+      }
+    ],
     "import/extensions": [
       "error",
       "ignorePackages",
       {
+        "": "never",
         "js": "never",
         "jsx": "never",
         "ts": "never",
-        "tsx": "never"
+        "tsx": "never",
+        "json": "always"
       }
     ],
     "@typescript-eslint/dot-notation": [
