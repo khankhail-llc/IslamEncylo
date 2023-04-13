@@ -5,104 +5,48 @@
  * @format
  */
 
-import React from 'react';
-import type { PropsWithChildren } from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import React, { useState, useEffect, createContext, useMemo } from 'react';
 
-import {
-  Colors,
-  Header,
-} from 'react-native/Libraries/NewAppScreen';
+import HomeScreen from './src/screens/HomeScreen.tsx';
+import MySplashScreen from './src/screens/SplashScreen.tsx';
 
-type SectionProps = PropsWithChildren<{
-  title: string;
-}>;
+const Stack = createNativeStackNavigator();
 
-function Section({ children, title }: SectionProps): JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
-  return (
-    <View style={styles.sectionContainer}>
-      <Text
-        style={[
-          styles.sectionTitle,
-          {
-            color: isDarkMode ? Colors.white : Colors.black,
-          },
-        ]}
-      >
-        {title}
-      </Text>
-      <Text
-        style={[
-          styles.sectionDescription,
-          {
-            color: isDarkMode ? Colors.light : Colors.dark,
-          },
-        ]}
-      >
-        {children}
-      </Text>
-    </View>
-  );
-}
+const ThemeContext = createContext({});
 
-function App(): JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
+function App() {
+  const [isSplashShow, setIsSplashShow] = useState(true);
+  const [theme, setTheme] = useState('dark');
 
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
+  useEffect(() => {
+    const timeOutId = setTimeout(() => {
+      setIsSplashShow(false);
+    }, 2000);
+    return () => clearTimeout(timeOutId);
+  }, []);
+
+  const themeValue = useMemo(() => ({ theme, setTheme }), [theme, setTheme]);
 
   return (
-    <SafeAreaView style={backgroundStyle}>
-      <StatusBar
-        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
-        backgroundColor={backgroundStyle.backgroundColor}
-      />
-      <ScrollView contentInsetAdjustmentBehavior="automatic" style={backgroundStyle}>
-        <Header />
-        <View
-          style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          }}
-        >
-          <Section title="Intro">
-            <Text style={styles.highlight}>
-              EditIslam Encyclopedia is the very first app
-              from developers of khankhail-llc.
-            </Text>
-          </Section>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+    <ThemeContext.Provider value={themeValue}>
+      <NavigationContainer>
+        <Stack.Navigator>
+          {isSplashShow ? (
+            <Stack.Screen
+              name="Splash"
+              component={MySplashScreen}
+              options={{ headerShown: false }}
+            />
+          ) : (
+            <Stack.Screen name="Home" component={HomeScreen} options={{ headerShown: false }} />
+          )}
+        </Stack.Navigator>
+      </NavigationContainer>
+    </ThemeContext.Provider>
   );
 }
-
-const styles = StyleSheet.create({
-  highlight: {
-    fontWeight: '700',
-  },
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionDescription: {
-    fontSize: 18,
-    fontWeight: '400',
-    marginTop: 8,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-  },
-});
 
 export default App;
+export { ThemeContext };
