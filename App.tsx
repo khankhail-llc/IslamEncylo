@@ -6,7 +6,7 @@
  */
 
 import React from 'react';
-import type {PropsWithChildren} from 'react';
+import type { PropsWithChildren } from 'react';
 import {
   SafeAreaView,
   ScrollView,
@@ -19,17 +19,14 @@ import {
 
 import {
   Colors,
-  DebugInstructions,
   Header,
-  LearnMoreLinks,
-  ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
 type SectionProps = PropsWithChildren<{
   title: string;
 }>;
 
-function Section({children, title}: SectionProps): JSX.Element {
+function Section({ children, title }: SectionProps): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
   return (
     <View style={styles.sectionContainer}>
@@ -39,7 +36,8 @@ function Section({children, title}: SectionProps): JSX.Element {
           {
             color: isDarkMode ? Colors.white : Colors.black,
           },
-        ]}>
+        ]}
+      >
         {title}
       </Text>
       <Text
@@ -48,7 +46,8 @@ function Section({children, title}: SectionProps): JSX.Element {
           {
             color: isDarkMode ? Colors.light : Colors.dark,
           },
-        ]}>
+        ]}
+      >
         {children}
       </Text>
     </View>
@@ -68,17 +67,18 @@ function App(): JSX.Element {
         barStyle={isDarkMode ? 'light-content' : 'dark-content'}
         backgroundColor={backgroundStyle.backgroundColor}
       />
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic"
-        style={backgroundStyle}>
+      <ScrollView contentInsetAdjustmentBehavior="automatic" style={backgroundStyle}>
         <Header />
         <View
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          }}>
+          }}
+        >
           <Section title="Intro">
-            Edit <Text style={styles.highlight}>Islam Encyclopedia</Text> is the very first
-            app from developers of khankhail-llc.
+            <Text style={styles.highlight}>
+              EditIslam Encyclopedia is the very first app
+              from developers of khankhail-llc.
+            </Text>
           </Section>
         </View>
       </ScrollView>
@@ -87,21 +87,21 @@ function App(): JSX.Element {
 }
 
 const styles = StyleSheet.create({
+  highlight: {
+    fontWeight: '700',
+  },
   sectionContainer: {
     marginTop: 32,
     paddingHorizontal: 24,
   },
+  sectionDescription: {
+    fontSize: 18,
+    fontWeight: '400',
+    marginTop: 8,
+  },
   sectionTitle: {
     fontSize: 24,
     fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
   },
 });
 
