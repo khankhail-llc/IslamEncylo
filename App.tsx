@@ -7,7 +7,9 @@
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import React, { useState, useEffect, createContext, useMemo } from 'react';
+import React, {
+  useState, useEffect, createContext, useMemo,
+} from 'react';
 
 import HomeScreen from './src/screens/HomeScreen.tsx';
 import MySplashScreen from './src/screens/SplashScreen.tsx';
