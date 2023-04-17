@@ -46,12 +46,11 @@
 
   "rules": {
     "semi": ["error", "always"],
-    "no-var": "error",
-    "global-require": "off",
     "linebreak-style": ["error", "unix"],
     "react-native/no-color-literals": "off",
     "import/no-dynamic-require": "off",
     "react/jsx-indent-props": [2, 6],
+    "global-require":"off",
     "import/no-useless-path-segments": [
       "error",
       {
@@ -64,8 +63,6 @@
         "extensions": [".js", ".jsx", ".ts", ".tsx"]
       }
     ],
-    "no-console": "off",
-    "no-color-literals": "off",
     "no-use-before-define": ["error", { "variables": false }],
     "react/prop-types": ["error", { "ignore": ["navigation", "navigation.navigate"] }],
     "import/no-unresolved": [

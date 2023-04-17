@@ -1,15 +1,8 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
 import React, { useEffect, useState } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import SplashScreen from 'react-native-splash-screen';
-import SplashScreenComponent from './src/SplashScreen/splashScreenComponet';
 import HomeScreen from './src/Screens/HomeScreen';
+import SplashScreenComponent from './src/SplashScreen/splashScreenComponet';
 
 const Stack = createNativeStackNavigator();
 
@@ -17,12 +10,11 @@ function App(): JSX.Element {
   const [showSplashScreen, setShowSplashScreen] = useState(true);
 
   useEffect(() => {
-    SplashScreen.hide();
-    const timeOutId = setTimeout(() => {
+    const timeoutId = setTimeout(() => {
       setShowSplashScreen(false);
-    }, 3000);
+    }, 4000);
     return () => {
-      clearTimeout(timeOutId);
+      clearTimeout(timeoutId);
     };
   }, []);
 
@@ -37,10 +29,11 @@ function App(): JSX.Element {
         {showSplashScreen ? (
           <Stack.Screen name="SplashScreen" component={SplashScreenComponent} />
         ) : (
-          <Stack.Screen name="HomeScren" component={HomeScreen} />
+          <Stack.Screen name="HomeScreen" component={HomeScreen} />
         )}
       </Stack.Navigator>
     </NavigationContainer>
   );
 }
+
 export default App;

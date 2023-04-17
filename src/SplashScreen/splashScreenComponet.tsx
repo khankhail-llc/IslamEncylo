@@ -1,16 +1,26 @@
 import React, { useState, useEffect } from 'react';
-import { View, Animated, ImageBackground } from 'react-native';
+import {
+  View, Animated, ImageBackground,
+} from 'react-native';
+import SplashScreen from 'react-native-splash-screen';
 import styles from './style';
 
-function SplashScreenComponent(): JSX.Element {
+function SplashScreenComponent():JSX.Element {
   const [scaleValue] = useState(new Animated.Value(0));
 
   useEffect(() => {
-    Animated.timing(scaleValue, {
-      toValue: 1,
-      duration: 1000,
-      useNativeDriver: false,
-    }).start();
+    const timeoutId = setTimeout(() => {
+      SplashScreen.hide();
+      Animated.timing(scaleValue, {
+        toValue: 1,
+        duration: 1000,
+        useNativeDriver: false,
+      }).start();
+    }, 3000);
+
+    return () => {
+      clearTimeout(timeoutId);
+    };
   }, [scaleValue]);
 
   const animatedStyle = {
@@ -23,17 +33,15 @@ function SplashScreenComponent(): JSX.Element {
       },
     ],
   };
+
   return (
     <ImageBackground
           source={require('../../assets/splash.jpg')}
           style={styles.backgroundImage}
     >
       <View style={styles.container}>
-        <Animated.Text
-              style={[styles.text, animatedStyle]}
-        >
+        <Animated.Text style={[styles.text, animatedStyle]}>
           Islam Encyclo
-
         </Animated.Text>
       </View>
     </ImageBackground>
