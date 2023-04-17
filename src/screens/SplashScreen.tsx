@@ -26,7 +26,7 @@ function MySplashScreen(): JSX.Element {
         duration: 1000,
         useNativeDriver: false,
       }).start();
-    }, 150);
+    }, 400);
     return () => clearTimeout(timeOutId);
   }, [sizeAnim]);
 
