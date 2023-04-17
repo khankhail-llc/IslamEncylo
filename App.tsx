@@ -11,8 +11,8 @@ import React, {
   useState, useEffect, createContext, useMemo,
 } from 'react';
 
-import HomeScreen from './src/screens/HomeScreen.tsx';
-import MySplashScreen from './src/screens/SplashScreen.tsx';
+import HomeScreen from './src/screens/homeScreen.tsx';
+import MySplashScreen from './src/screens/splashScreen/SplashScreen.tsx';
 
 const Stack = createNativeStackNavigator();
 
