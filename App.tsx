@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
@@ -11,7 +12,7 @@ import React, {
   useState, useEffect, createContext, useMemo,
 } from 'react';
 
-import HomeScreen from './src/screens/HomeScreen.tsx';
+import MyTabs from './src/BottomTabNavi/BottomTabs.tsx';
 import MySplashScreen from './src/screens/SplashScreen.tsx';
 
 const Stack = createNativeStackNavigator();
@@ -42,7 +43,7 @@ function App() {
               options={{ headerShown: false }}
             />
           ) : (
-            <Stack.Screen name="Home" component={HomeScreen} options={{ headerShown: false }} />
+            <Stack.Screen name="Home" component={MyTabs} options={{ headerShown: false }} />
           )}
         </Stack.Navigator>
       </NavigationContainer>
