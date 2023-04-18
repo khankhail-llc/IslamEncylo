@@ -4,8 +4,6 @@ import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
 import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint;
 import com.facebook.react.defaults.DefaultReactActivityDelegate;
-
-// Import For SplashScreens
 import android.os.Bundle;
 import org.devio.rn.splashscreen.SplashScreen;
 
@@ -19,8 +17,7 @@ public class MainActivity extends ReactActivity {
   protected String getMainComponentName() {
     return "IslamEncyclo";
   }
-
-   @Override
+  @Override
     protected void onCreate(Bundle savedInstanceState) {
         SplashScreen.show(this);  // here
         super.onCreate(savedInstanceState);

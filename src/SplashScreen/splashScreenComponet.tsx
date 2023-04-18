@@ -6,11 +6,14 @@ function SplashScreenComponent(): JSX.Element {
   const [scaleValue] = useState(new Animated.Value(0));
 
   useEffect(() => {
-    Animated.timing(scaleValue, {
-      toValue: 1,
-      duration: 1000,
-      useNativeDriver: false,
-    }).start();
+    const timer = setTimeout(() => {
+      Animated.timing(scaleValue, {
+        toValue: 1,
+        duration: 1000,
+        useNativeDriver: false,
+      }).start();
+    }, 50);
+    return () => { clearTimeout(timer); };
   }, [scaleValue]);
 
   const animatedStyle = {
@@ -18,14 +21,14 @@ function SplashScreenComponent(): JSX.Element {
       {
         scale: scaleValue.interpolate({
           inputRange: [0, 0.5, 1],
-          outputRange: [1, 4, 5.5],
+          outputRange: [0, 1, 5],
         }),
       },
     ],
   };
   return (
     <ImageBackground
-          source={require('../../assets/splash.jpg')}
+          source={require('../../assets/Splash.jpg')}
           style={styles.backgroundImage}
     >
       <View style={styles.container}>

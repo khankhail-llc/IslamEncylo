@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, View } from 'react-native';
 import styles from './style';
 
-function Test(): JSX.Element {
+function HomeScreen(): JSX.Element {
   return (
     <View>
       <Text style={styles.text}>Welcome To Islam Encyclo</Text>
@@ -10,4 +10,4 @@ function Test(): JSX.Element {
   );
 }
 
-export default Test;
+export default HomeScreen;

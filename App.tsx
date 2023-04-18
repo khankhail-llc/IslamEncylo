@@ -9,7 +9,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import SplashScreen from 'react-native-splash-screen';
 import SplashScreenComponent from './src/SplashScreen/splashScreenComponet';
-import HomeScreen from './src/Screens/HomeScreen';
+import HomeScreen from './src/Components/Welcome';
 
 const Stack = createNativeStackNavigator();
 
