@@ -1,11 +1,11 @@
-/* eslint-disable react-native/no-inline-styles */
 import React from 'react';
 import {
-  View, Text, SafeAreaView, TextInput, Image,
+  View, Text, SafeAreaView, TextInput, Image, ImageBackground,
 } from 'react-native';
-import Entypoicon from 'react-native-vector-icons/Entypo';
+import Feather from 'react-native-vector-icons/Feather';
 
 import CircleImage from '../../../assets/circle-image.png';
+import launchScreen from '../../../assets/launchScreen.png';
 
 import styles from './style.tsx';
 
@@ -17,24 +17,20 @@ function HomeScreen() {
     </View>
   );
   const rendersearchbar = () => (
-    <TextInput
-      style={styles.inputStyles}
-      placeholderTextColor="#000"
-      placeholder="Search"
-    />
-  );
-  const renderaicon = () => (
-    <Entypoicon name="video=camera" size={26} color="red" />
-
+    <View style={styles.searchContainer}>
+      <Feather name="search" size={24} color="#fff" style={styles.icon} />
+      <TextInput style={styles.inputStyles} placeholderTextColor="#fff" placeholder="Search" />
+      <Feather name="mic" size={24} color="#fff" style={[styles.icon, styles.micIcon]} />
+    </View>
   );
 
   return (
-    <SafeAreaView style={styles.container}>
-      {renderHeader()}
-      {rendersearchbar()}
-      {renderaicon()}
-
-    </SafeAreaView>
+    <ImageBackground source={launchScreen} style={styles.background}>
+      <SafeAreaView style={styles.container}>
+        {renderHeader()}
+        {rendersearchbar()}
+      </SafeAreaView>
+    </ImageBackground>
   );
 }
 export default HomeScreen;

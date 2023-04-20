@@ -2,18 +2,14 @@ interface ColorInterface {
   YELLOW: string;
   RED: string;
   WHITE: string;
-  GRAY: string;
-  LIGHTGRAY: string
-  BLACK: string
+  TEXTINPUT: string
 }
 
 const COLORS: ColorInterface = {
-  YELLOW: 'yellow',
-  RED: 'red',
-  WHITE: 'white',
-  GRAY: 'gray',
-  LIGHTGRAY: 'light gray',
-  BLACK: 'black',
+  YELLOW: '#FFFF00',
+  RED: '#FF0000',
+  WHITE: '#fff',
+  TEXTINPUT: '#545351',
 };
 
 export default COLORS;

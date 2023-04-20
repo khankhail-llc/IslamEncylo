@@ -1,7 +1,7 @@
-/* eslint-disable import/no-extraneous-dependencies */
-/* eslint-disable react/react-in-jsx-scope */
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import FontAwesome5 from 'react-native-vector-icons/FontAwesome';
+import Entypo from 'react-native-vector-icons/Entypo';
+import Feather from 'react-native-vector-icons/Feather';
+import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 
 import HomeScreen from '../screens/HomeScreen/HomeScreen.tsx';
 
@@ -14,34 +14,41 @@ function MyTabs(): JSX.Element {
         headerShown: false,
         tabBarStyle: {
           height: 100,
-          borderTopColor: '#BDC5CD',
-          paddingTop: 9,
           borderTopWidth: 1,
+          backgroundColor: '#493719',
         },
       }}
     >
       <Tab.Screen
-        name="sadia"
+        name="HomeScreen"
         component={HomeScreen}
         options={{
           tabBarLabel: '',
-          tabBarIcon: () => <FontAwesome5 name="book-open" size={26} />,
+          tabBarIcon: () => <Entypo name="home" size={28} color="#FFFFFF" />,
         }}
       />
       <Tab.Screen
-        name="q"
+        name="Juzz Index"
         component={HomeScreen}
         options={{
           tabBarLabel: '',
-          tabBarIcon: () => <FontAwesome5 name="book-open" size={26} />,
+          tabBarIcon: () => <Feather name="book-open" size={28} color="#766F63" />,
         }}
       />
       <Tab.Screen
-        name="w"
+        name="Surah Index"
         component={HomeScreen}
         options={{
           tabBarLabel: '',
-          tabBarIcon: () => <FontAwesome5 name="book-open" size={26} />,
+          tabBarIcon: () => <FontAwesome5 name="praying-hands" size={28} color="#766F63" />,
+        }}
+      />
+      <Tab.Screen
+        name="More"
+        component={HomeScreen}
+        options={{
+          tabBarLabel: '',
+          tabBarIcon: () => <Feather name="more-horizontal" size={28} color="#766F63" />,
         }}
       />
     </Tab.Navigator>

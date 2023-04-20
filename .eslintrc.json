@@ -15,7 +15,8 @@
     "plugin:react-native/all",
     "plugin:@typescript-eslint/recommended",
     "airbnb",
-    "airbnb/hooks"
+    "airbnb/hooks",
+    "plugin:react/jsx-runtime"
   ],
   "parserOptions": {
     "ecmaFeatures": {
@@ -38,6 +39,8 @@
     "react/no-unstable-nested-components": ["error", {"allowAsProps": true}],
     "react/prop-types": ["error", { "ignore": ["navigation", "navigation.navigate"] }],
     "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
+    "react/jsx-uses-vars": "error",
+        "react/jsx-uses-react": "error",
     "import/order": [
       "error",
       {

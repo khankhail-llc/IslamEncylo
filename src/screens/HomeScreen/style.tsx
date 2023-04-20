@@ -3,6 +3,10 @@ import { StyleSheet } from 'react-native';
 import COLORS from '../../colors/myColors.tsx';
 
 const styles = StyleSheet.create({
+  background: {
+    flex: 1,
+    resizeMode: 'cover',
+  },
   circleImage: {
     borderRadius: 50,
     height: 50,
@@ -25,26 +29,37 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
   },
   headerText: {
+    color: COLORS.WHITE,
     fontSize: 30,
     fontStyle: 'normal',
     fontWeight: '700',
   },
+  icon: {
+    marginRight: 10,
+  },
   inputStyles: {
-    borderColor: COLORS.GRAY,
-    borderRadius: 30,
-    borderWidth: 2,
+    color: COLORS.WHITE,
+    flex: 1,
     fontSize: 16,
-    fontStyle: 'normal',
     fontWeight: '500',
-    marginBottom: 16,
-    marginHorizontal: 10,
-    padding: 10,
   },
   loginStyles: {
     fontSize: 16,
   },
+  micIcon: {
+    position: 'absolute',
+    right: 10,
+  },
+  searchContainer: {
+    alignItems: 'center',
+    backgroundColor: COLORS.TEXTINPUT,
+    borderRadius: 20,
+    flexDirection: 'row',
+    marginHorizontal: 10,
+    paddingHorizontal: 10,
+    paddingVertical: 10,
+  },
   tabBarStyle: {
-    borderTopColor: COLORS.GRAY,
     borderTopWidth: 1,
     height: 100,
     paddingTop: 9,
