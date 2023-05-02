@@ -11,8 +11,8 @@ import React, {
   useState, useEffect, createContext, useMemo,
 } from 'react';
 
-import HomeScreen from './src/screens/HomeScreen.tsx';
-import MySplashScreen from './src/screens/SplashScreen.tsx';
+import MyTabs from './src/navigations/bottomTabs.tsx';
+import MySplashScreen from './src/screens/splashAnimation/SplashScreen.tsx';
 
 const Stack = createNativeStackNavigator();
 
@@ -42,7 +42,7 @@ function App() {
               options={{ headerShown: false }}
             />
           ) : (
-            <Stack.Screen name="Home" component={HomeScreen} options={{ headerShown: false }} />
+            <Stack.Screen name="Navigation" component={MyTabs} options={{ headerShown: false }} />
           )}
         </Stack.Navigator>
       </NavigationContainer>
