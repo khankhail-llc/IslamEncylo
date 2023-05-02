@@ -1,10 +1,10 @@
-/* eslint-disable react/no-unstable-nested-components */
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import React from 'react';
 import Entypo from 'react-native-vector-icons/Entypo';
 import Feather from 'react-native-vector-icons/Feather';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 
+import COLORS from '../colors/myColors.tsx';
 import HomeScreen from '../screens/HomeScreens/HomeScreen.tsx';
 
 const Tab = createBottomTabNavigator();
@@ -16,13 +16,13 @@ function MyTabs(): JSX.Element {
         headerShown: false,
         tabBarStyle: {
           height: 80,
-          borderTopColor: '#BDC5CD',
+          borderTopColor: COLORS.Dark_YELLOW,
           paddingTop: 10,
           borderTopWidth: 1,
-          backgroundColor: '#0986',
+          backgroundColor: COLORS.Dark_YELLOW,
         },
-        tabBarActiveTintColor: 'red',
-        tabBarInactiveTintColor: 'black',
+        tabBarActiveTintColor: COLORS.WHITE,
+        tabBarInactiveTintColor: COLORS.DARK_GARY,
       }}
     >
       <Tab.Screen
@@ -30,31 +30,31 @@ function MyTabs(): JSX.Element {
         component={HomeScreen}
         options={{
           tabBarLabel: '',
-          tabBarIcon: () => <Entypo name="home" size={28} color="#FFFFFF" />,
+          tabBarIcon: ({ color }) => <Entypo name="home" size={28} color={color} />,
         }}
       />
       <Tab.Screen
-        name="ome"
+        name="open-Book"
         component={HomeScreen}
         options={{
           tabBarLabel: '',
-          tabBarIcon: () => <Feather name="book-open" size={28} color="#766F63" />,
+          tabBarIcon: ({ color }) => <Feather name="book-open" size={28} color={color} />,
         }}
       />
       <Tab.Screen
-        name="Hme"
+        name="Praying-hands"
         component={HomeScreen}
         options={{
           tabBarLabel: '',
-          tabBarIcon: () => <FontAwesome5 name="praying-hands" size={28} color="#766F63" />,
+          tabBarIcon: ({ color }) => <FontAwesome5 name="praying-hands" size={28} color={color} />,
         }}
       />
       <Tab.Screen
-        name="Hom"
+        name="More info"
         component={HomeScreen}
         options={{
           tabBarLabel: '',
-          tabBarIcon: () => <Feather name="more-horizontal" size={28} color="#766F63" />,
+          tabBarIcon: ({ color }) => <Feather name="more-horizontal" size={28} color={color} />,
         }}
       />
     </Tab.Navigator>

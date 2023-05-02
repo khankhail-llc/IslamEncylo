@@ -6,7 +6,9 @@
  */
 
 import React, { useEffect, useRef } from 'react';
-import { View, ImageBackground, Animated, StyleSheet } from 'react-native';
+import {
+  View, ImageBackground, Animated, StyleSheet,
+} from 'react-native';
 import SplashScreen from 'react-native-splash-screen';
 
 import SplashImage from '../../../assets/launchScreen.png';
