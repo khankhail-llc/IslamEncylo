@@ -7,12 +7,11 @@
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import React, {
-  useState, useEffect, createContext, useMemo,
-} from 'react';
+import React, { useState, useEffect, createContext } from 'react';
 
-import HomeScreen from './src/screens/homeScreen.tsx';
-import MySplashScreen from './src/screens/splashScreen/SplashScreen.tsx';
+import HomeScreen from './src/screens/HomeScreen/HomeScreen.tsx';
+import MySplashScreen from './src/splashScreen/SplashScreen.tsx';
+import ThemeProvider from './src/theming/ThemeProvider.tsx';
 
 const Stack = createNativeStackNavigator();
 
@@ -20,7 +19,6 @@ const ThemeContext = createContext({});
 
 function App() {
   const [isSplashShow, setIsSplashShow] = useState(true);
-  const [theme, setTheme] = useState('dark');
 
   useEffect(() => {
     const timeOutId = setTimeout(() => {
@@ -29,10 +27,8 @@ function App() {
     return () => clearTimeout(timeOutId);
   }, []);
 
-  const themeValue = useMemo(() => ({ theme, setTheme }), [theme, setTheme]);
-
   return (
-    <ThemeContext.Provider value={themeValue}>
+    <ThemeProvider>
       <NavigationContainer>
         <Stack.Navigator>
           {isSplashShow ? (
@@ -46,7 +42,7 @@ function App() {
           )}
         </Stack.Navigator>
       </NavigationContainer>
-    </ThemeContext.Provider>
+    </ThemeProvider>
   );
 }
 
