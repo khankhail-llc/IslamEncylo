@@ -1,4 +1,3 @@
-// useThemedStyles.ts
 import { Theme } from './ThemeProvider.tsx';
 import useTheme from './useTheme.ts';
 

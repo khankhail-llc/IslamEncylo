@@ -1,4 +1,3 @@
-// ThemeProvider.tsx
 import React, {
   createContext, useCallback, useMemo, useState,
 } from 'react';

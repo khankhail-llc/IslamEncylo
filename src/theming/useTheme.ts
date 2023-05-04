@@ -1,4 +1,3 @@
-// useTheme.ts
 import { useContext } from 'react';
 
 import { ThemeContext, Theme } from './ThemeProvider.tsx';
