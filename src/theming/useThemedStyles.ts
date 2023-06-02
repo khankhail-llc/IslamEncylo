@@ -1,4 +1,4 @@
-import { Theme } from './ThemeProvider.tsx';
+import { Theme } from './themeProvider.tsx';
 import useTheme from './useTheme.ts';
 
 type ThemedStyles = Record<
