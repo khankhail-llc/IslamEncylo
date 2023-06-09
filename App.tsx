@@ -7,9 +7,11 @@
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import React, { useState, useEffect, createContext, useMemo } from 'react';
+import React, {
+  useState, useEffect, createContext, useMemo,
+} from 'react';
 
-import MyTabs from './src/navigations/bottomTabs.tsx';
+import HomeScreen from './src/screens/homeScreen/HomeScreen.tsx';
 import MySplashScreen from './src/screens/splashAnimation/SplashScreen.tsx';
 
 const Stack = createNativeStackNavigator();
@@ -40,7 +42,7 @@ function App() {
               options={{ headerShown: false }}
             />
           ) : (
-            <Stack.Screen name="Navigation" component={MyTabs} options={{ headerShown: false }} />
+            <Stack.Screen name="HomeScreen" component={HomeScreen} options={{ headerShown: false }} />
           )}
         </Stack.Navigator>
       </NavigationContainer>

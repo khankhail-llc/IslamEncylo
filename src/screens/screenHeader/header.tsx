@@ -1,9 +1,9 @@
 import React from 'react';
 import { View, Text, Image } from 'react-native';
 
-import HeaderImage from '../../../assets/header.png';
+import HeaderImage from '../../assets/images/reciterImages/a_rehman/a_rehman.png';
 
-import styles from './style.tsx';
+import styles from './style.ts';
 
 export default function Header(): JSX.Element {
   return (

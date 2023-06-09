@@ -35,10 +35,13 @@
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
     "no-use-before-define": ["error", { "variables": false }],
     "react/prop-types": ["error", { "ignore": ["navigation", "navigation.navigate"] }],
-    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
-    "react/jsx-props-no-spreading": ["error", {
-      "exceptions": ["style", "className", "TabBar"]
-    }],    
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "react/jsx-props-no-spreading": [
+      "error",
+      {
+        "exceptions": ["style", "className", "TabBar"]
+      }
+    ],
     "import/order": [
       "error",
       {

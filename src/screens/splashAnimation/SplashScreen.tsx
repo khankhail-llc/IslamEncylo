@@ -11,7 +11,7 @@ import {
 } from 'react-native';
 import SplashScreen from 'react-native-splash-screen';
 
-import SplashImage from '../../../assets/launchScreen.png';
+import SplashImage from '../../assets/images/coverImages/launchScreen.png';
 import COLORS from '../../colors/myColors.tsx';
 
 function MySplashScreen(): JSX.Element {

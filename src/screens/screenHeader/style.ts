@@ -14,12 +14,13 @@ const styles = StyleSheet.create({
 
   QuranHeadingStyle: {
     color: COLORS.WHITE,
-    fontSize: 30,
+    fontSize: 25,
+    fontWeight: '700',
   },
   imgStyle: {
     borderRadius: 100,
-    height: 50,
-    width: 50,
+    height: 40,
+    width: 40,
   },
 });
 export default styles;

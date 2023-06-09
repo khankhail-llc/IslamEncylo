@@ -7,39 +7,44 @@ const windowWidth = Dimensions.get('window').width;
 const styles = StyleSheet.create({
   contanier: {
     alignSelf: 'center',
-    backgroundColor: COLORS.GREY,
-    borderRadius: 20,
-    flex: 1,
-    marginTop: 30,
+    marginTop: 15,
     width: windowWidth - 20,
   },
-
+  iconContainer: {
+    marginLeft: 2,
+  },
   item: {
     alignItems: 'center',
+    backgroundColor: COLORS.LIGHTGRY,
+    borderRadius: 11,
     flexDirection: 'row',
     paddingHorizontal: 24,
-    paddingVertical: 15,
+    paddingVertical: 10,
+  },
+
+  meaningtitle: {
+    color: COLORS.LIGHTGRY,
+    flex: 1,
+    fontSize: 15,
+    fontStyle: 'normal',
+    fontWeight: '500',
   },
 
   playButton: {
     alignItems: 'center',
     backgroundColor: COLORS.YELLOW,
-    borderRadius: 16,
-    height: 32,
+    borderRadius: 15,
+    height: 30,
     justifyContent: 'center',
-    marginRight: 12,
-    width: 32,
-  },
-
-  playButtonText: {
-    borderRadius: 100,
+    marginRight: 13,
+    width: 30,
   },
 
   title: {
     color: COLORS.WHITE,
     flex: 1,
     fontSize: 18,
-    fontWeight: '900',
+    fontWeight: 'bold',
   },
 });
 
