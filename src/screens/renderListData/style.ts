@@ -1,6 +1,6 @@
 import { StyleSheet, Dimensions } from 'react-native';
 
-import COLORS from '../../colors/myColors.tsx';
+import COLORS from '../../colors/myColors.ts';
 
 const windowWidth = Dimensions.get('window').width;
 
@@ -10,10 +10,12 @@ const styles = StyleSheet.create({
     marginTop: 15,
     width: windowWidth - 20,
   },
+
   iconContainer: {
     marginLeft: 2,
   },
-  item: {
+
+  itemContainer: {
     alignItems: 'center',
     backgroundColor: COLORS.LIGHTGRY,
     borderRadius: 11,
@@ -29,7 +31,6 @@ const styles = StyleSheet.create({
     fontStyle: 'normal',
     fontWeight: '500',
   },
-
   playButton: {
     alignItems: 'center',
     backgroundColor: COLORS.YELLOW,
@@ -39,7 +40,6 @@ const styles = StyleSheet.create({
     marginRight: 13,
     width: 30,
   },
-
   title: {
     color: COLORS.WHITE,
     flex: 1,

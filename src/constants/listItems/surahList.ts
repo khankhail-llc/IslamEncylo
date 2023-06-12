@@ -1,4 +1,4 @@
-type SurahItem = {
+export type SurahItem = {
   title: string;
   arabicTittle: string;
   meaning: string;

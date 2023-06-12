@@ -16,7 +16,7 @@ const COLORS: ColorInterface = {
   TRANSPARENT: 'transparent',
   Dark_YELLOW: '#493719',
   DARK_GARY: '#808080',
-  LIGHTGRY: '#FFFFFF26',
+  LIGHTGRY: '#ffFFFF26',
 };
 
 export default COLORS;

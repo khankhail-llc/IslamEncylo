@@ -6,13 +6,11 @@
  */
 
 import React, { useEffect, useRef } from 'react';
-import {
-  View, ImageBackground, Animated, StyleSheet,
-} from 'react-native';
+import { View, ImageBackground, Animated, StyleSheet } from 'react-native';
 import SplashScreen from 'react-native-splash-screen';
 
 import SplashImage from '../../assets/images/coverImages/launchScreen.png';
-import COLORS from '../../colors/myColors.tsx';
+import COLORS from '../../colors/myColors.ts';
 
 function MySplashScreen(): JSX.Element {
   const sizeAnim = useRef(new Animated.Value(10)).current;
