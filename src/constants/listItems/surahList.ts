@@ -5,7 +5,7 @@ export type SurahItem = {
   surahNo: number;
 };
 
-const surahList: SurahItem[] = [
+const surahList: Array<SurahItem> = [
   {
     surahNo: 1,
     title: 'Al-Fatiha',
