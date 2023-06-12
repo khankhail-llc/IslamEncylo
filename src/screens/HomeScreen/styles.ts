@@ -1,6 +1,8 @@
 import { StyleSheet } from 'react-native';
 
-const styles = (theme: any) => StyleSheet.create({
+import { Theme } from '../../theming/themeProvider.tsx';
+
+const styles = (theme: Theme) => StyleSheet.create({
   body: {
     alignItems: 'center',
     backgroundColor: theme.colors.BACKGROUND,

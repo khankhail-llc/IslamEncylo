@@ -15,7 +15,7 @@ import launchScreen from '../../assets/launchScreen.png';
 
 const YELLOW = 'yellow';
 
-function MySplashScreen(): JSX.Element {
+function JsSplashScreen(): JSX.Element {
   const sizeAnim = useRef(new Animated.Value(10)).current;
 
   useEffect(() => {
@@ -63,4 +63,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default MySplashScreen;
+export default JsSplashScreen;

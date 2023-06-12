@@ -10,7 +10,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React, { useState, useEffect, createContext } from 'react';
 
 import HomeScreen from './src/screens/homeScreen/index.tsx';
-import MySplashScreen from './src/splashScreen/index.tsx';
+import JsSplashScreen from './src/splashScreen/index.tsx';
 import ThemeProvider from './src/theming/themeProvider.tsx';
 
 const Stack = createNativeStackNavigator();
@@ -34,7 +34,7 @@ function App() {
           {isSplashShow ? (
             <Stack.Screen
               name="Splash"
-              component={MySplashScreen}
+              component={JsSplashScreen}
               options={{ headerShown: false }}
             />
           ) : (

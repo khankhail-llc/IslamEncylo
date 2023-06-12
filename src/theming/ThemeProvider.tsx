@@ -3,13 +3,13 @@ import React, {
 } from 'react';
 
 import colors from '../colors/colors.ts';
-import { typography } from '../colors/typography.ts';
+import { Typography, typography } from '../colors/typography.ts';
 
 export const ThemeContext = createContext({});
 
 export type Theme = {
   colors: Record<string, string>;
-  typography: Record<string, number>;
+  typography: Typography;
   toggleTheme: () => void;
   isLightTheme: boolean;
 };

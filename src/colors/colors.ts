@@ -6,13 +6,18 @@ const ALIZARIN = '#e74c3c';
 const CLOUDS = '#ecf0f1';
 const SILVER = '#bdc3c7';
 
-const common = {
+const common: Record<string, string> = {
   PRIMARY: SUN_FLOWER,
   SUCCESS: EMERALD,
   ERROR: ALIZARIN,
 };
 
-const colors = {
+type Colors = {
+  light: Record<string, string>;
+  dark: Record<string, string>;
+};
+
+const colors: Colors = {
   light: {
     ...common,
     BACKGROUND: CLOUDS,
