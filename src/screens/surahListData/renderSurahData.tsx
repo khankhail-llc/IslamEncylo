@@ -27,10 +27,10 @@ function SurahData({ item }: { item: SurahItem }) {
           />
         </View>
         <View>
-          <Text style={styles.title}>{item.title}</Text>
+          <Text style={styles.titleStyle}>{item.title}</Text>
           <Text style={styles.meaningtitle}>{item.meaning}</Text>
         </View>
-        <Text style={styles.title}>{item.arabicTittle}</Text>
+        <Text style={[styles.titleStyle, styles.arabicTitleStyle]}>{item.arabicTittle}</Text>
       </TouchableOpacity>
     </View>
   );
@@ -41,7 +41,7 @@ function RenderSurahList({ searchSurah }: surahListProps) {
     <FlatList
       data={filterSurah(surahList, searchSurah)}
       keyExtractor={(item) => item.surahNo.toString()}
-      renderItem={({ item }) => <SurahData item={item} />}
+      renderItem={SurahData}
     />
   );
 }

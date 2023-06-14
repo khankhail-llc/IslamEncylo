@@ -5,12 +5,14 @@ import COLORS from '../../colors/myColors.ts';
 const windowWidth = Dimensions.get('window').width;
 
 const styles = StyleSheet.create({
+  arabicTitleStyle: {
+    textAlign: 'right',
+  },
   contanier: {
     alignSelf: 'center',
     marginTop: 15,
     width: windowWidth - 20,
   },
-
   iconContainer: {
     marginLeft: 2,
   },
@@ -40,7 +42,7 @@ const styles = StyleSheet.create({
     marginRight: 13,
     width: 30,
   },
-  title: {
+  titleStyle: {
     color: COLORS.WHITE,
     flex: 1,
     fontSize: 18,
