@@ -1,18 +1,18 @@
 /**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
+ * Islam Encyclo
+ * React Native Powered App
  * @format
  */
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React, {
-  useState, useEffect, createContext, useMemo,
+  useState, useEffect, createContext,
 } from 'react';
 
-import HomeScreen from './src/screens/HomeScreen.tsx';
-import MySplashScreen from './src/screens/SplashScreen.tsx';
+import HomeScreen from './src/screens/HomeScreen/index.tsx';
+import JsSplashScreen from './src/splashScreen/index.tsx';
+import ThemeProvider from './src/theming/themeProvider.tsx';
 
 const Stack = createNativeStackNavigator();
 
@@ -20,7 +20,6 @@ const ThemeContext = createContext({});
 
 function App() {
   const [isSplashShow, setIsSplashShow] = useState(true);
-  const [theme, setTheme] = useState('dark');
 
   useEffect(() => {
     const timeOutId = setTimeout(() => {
@@ -29,16 +28,14 @@ function App() {
     return () => clearTimeout(timeOutId);
   }, []);
 
-  const themeValue = useMemo(() => ({ theme, setTheme }), [theme, setTheme]);
-
   return (
-    <ThemeContext.Provider value={themeValue}>
+    <ThemeProvider>
       <NavigationContainer>
         <Stack.Navigator>
           {isSplashShow ? (
             <Stack.Screen
               name="Splash"
-              component={MySplashScreen}
+              component={JsSplashScreen}
               options={{ headerShown: false }}
             />
           ) : (
@@ -46,7 +43,7 @@ function App() {
           )}
         </Stack.Navigator>
       </NavigationContainer>
-    </ThemeContext.Provider>
+    </ThemeProvider>
   );
 }
 

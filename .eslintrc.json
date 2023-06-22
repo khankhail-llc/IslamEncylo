@@ -45,6 +45,7 @@
           "caseInsensitive": true
         }
       }
-    ]
+    ],
+    "no-unused-vars": ["error", { "argsIgnorePattern": "params" }]
   }
 }

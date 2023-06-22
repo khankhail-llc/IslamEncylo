@@ -11,10 +11,11 @@ import {
 } from 'react-native';
 import SplashScreen from 'react-native-splash-screen';
 
-import myImage from '../../assets/launchScreen.png';
-import COLORS from '../colors/myColors.tsx';
+import launchScreen from '../../assets/launchScreen.png';
 
-function MySplashScreen(): JSX.Element {
+const YELLOW = 'yellow';
+
+function JsSplashScreen(): JSX.Element {
   const sizeAnim = useRef(new Animated.Value(10)).current;
 
   useEffect(() => {
@@ -32,8 +33,8 @@ function MySplashScreen(): JSX.Element {
 
   return (
     <ImageBackground
-      defaultSource={myImage}
-      source={myImage}
+      defaultSource={launchScreen}
+      source={launchScreen}
       style={styles.imgStyles}
       resizeMode="cover"
     >
@@ -56,10 +57,10 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   textStyles: {
-    color: COLORS.YELLOW,
+    color: YELLOW,
     fontStyle: 'italic',
     fontWeight: 'bold',
   },
 });
 
-export default MySplashScreen;
+export default JsSplashScreen;
