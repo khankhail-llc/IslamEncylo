@@ -7,23 +7,26 @@
 
 import React, { useEffect, useRef } from 'react';
 import {
-  View, ImageBackground, Animated, StyleSheet,
+  View, ImageBackground, Animated,
 } from 'react-native';
 import SplashScreen from 'react-native-splash-screen';
 
-import launchScreen from '../../assets/launchScreen.png';
+import launchScreen from '../assets/images/coverImages/launchScreen.png';
+import useThemedStyles from '../theming/useThemedStyles.ts';
 
-const YELLOW = 'yellow';
+import styles from './style.ts';
 
 function JsSplashScreen(): JSX.Element {
-  const sizeAnim = useRef(new Animated.Value(10)).current;
+  const style = useThemedStyles(styles);
+
+  const sizeAnim = useRef(new Animated.Value(8)).current;
 
   useEffect(() => {
     const timeOutId = setTimeout(() => {
       SplashScreen.hide();
 
       Animated.timing(sizeAnim, {
-        toValue: 50,
+        toValue: 40,
         duration: 1000,
         useNativeDriver: false,
       }).start();
@@ -35,32 +38,16 @@ function JsSplashScreen(): JSX.Element {
     <ImageBackground
       defaultSource={launchScreen}
       source={launchScreen}
-      style={styles.imgStyles}
+      style={style.imgStyles}
       resizeMode="cover"
     >
-      <View style={styles.containerStyles}>
-        <Animated.Text style={[styles.textStyles, { fontSize: sizeAnim }]}>
+      <View style={style.containerStyles}>
+        <Animated.Text style={[style.textStyles, { fontSize: sizeAnim }]}>
           Islam Encyclo
         </Animated.Text>
       </View>
     </ImageBackground>
   );
 }
-
-const styles = StyleSheet.create({
-  containerStyles: {
-    alignItems: 'center',
-    flex: 1,
-    justifyContent: 'center',
-  },
-  imgStyles: {
-    flex: 1,
-  },
-  textStyles: {
-    color: YELLOW,
-    fontStyle: 'italic',
-    fontWeight: 'bold',
-  },
-});
 
 export default JsSplashScreen;

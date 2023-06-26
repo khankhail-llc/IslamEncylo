@@ -7,17 +7,14 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React, {
-  useState, useEffect, createContext,
+  useState, useEffect,
 } from 'react';
 
-import HomeScreen from './src/screens/HomeScreen/index.tsx';
-import JsSplashScreen from './src/splashScreen/index.tsx';
+import HomeScreen from './src/screens/HomeScreen/HomeScreen.tsx';
+import JsSplashScreen from './src/splashScreen/splash.tsx';
 import ThemeProvider from './src/theming/themeProvider.tsx';
 
 const Stack = createNativeStackNavigator();
-
-const ThemeContext = createContext({});
-
 function App() {
   const [isSplashShow, setIsSplashShow] = useState(true);
 
@@ -48,4 +45,4 @@ function App() {
 }
 
 export default App;
-export { ThemeContext };
+// export { ThemeContext };
