@@ -64,3 +64,6 @@ yarn-error.log
 
 # lock files should not be in the git
 *.lock
+
+.yarn/
+.lock/
