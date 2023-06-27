@@ -6,11 +6,10 @@
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import React, {
-  useState, useEffect,
-} from 'react';
+import React, { useState, useEffect } from 'react';
 
-import HomeScreen from './src/screens/HomeScreen/HomeScreen.tsx';
+import HomeScreen from './src/screens/homeScreen/HomeScreen.tsx';
+import SettingScreen from './src/screens/setting/settingScreen.tsx';
 import JsSplashScreen from './src/splashScreen/splash.tsx';
 import ThemeProvider from './src/theming/themeProvider.tsx';
 
@@ -38,6 +37,8 @@ function App() {
           ) : (
             <Stack.Screen name="Home" component={HomeScreen} options={{ headerShown: false }} />
           )}
+          <Stack.Screen name="Setting" component={SettingScreen} options={{ headerShown: false }} />
+
         </Stack.Navigator>
       </NavigationContainer>
     </ThemeProvider>
