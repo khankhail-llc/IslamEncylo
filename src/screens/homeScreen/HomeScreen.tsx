@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-import {
-  ImageBackground, SafeAreaView, StatusBar, StatusBarStyle,
-} from 'react-native';
+import { ImageBackground, SafeAreaView, StatusBar, StatusBarStyle } from 'react-native';
 
 import BackGroundImage from '../../assets/images/coverImages/launchScreen.png';
 import SearchBar from '../../components/search/searchBar.tsx';

@@ -1,7 +1,5 @@
 import React from 'react';
-import {
-  FlatList, Text, TouchableOpacity, View,
-} from 'react-native';
+import { FlatList, Text, TouchableOpacity, View } from 'react-native';
 import Entypo from 'react-native-vector-icons/Entypo';
 
 import filterSurah from '../../components/search/filterSearch.tsx';
@@ -49,11 +47,7 @@ function RenderSurahList({ searchSurah }: RenderSurahListProps) {
   const style = useThemedStyles(styles);
 
   const renderSurahItem = ({ item }: { item: SurahItem }) => (
-    <SurahData
-      item={item}
-      theme={theme}
-      style={style as unknown as Styles}
-    />
+    <SurahData item={item} theme={theme} style={style as unknown as Styles} />
   );
 
   return (

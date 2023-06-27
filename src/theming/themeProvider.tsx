@@ -1,6 +1,4 @@
-import React, {
-  createContext, useCallback, useMemo, useState,
-} from 'react';
+import React, { createContext, useCallback, useMemo, useState } from 'react';
 
 import colors from '../colors/colors.ts';
 import { Typography, typography } from '../colors/typography.ts';
@@ -31,7 +29,7 @@ function ThemeProvider({ children }: ThemeProviderProps) {
       toggleTheme,
       isLightTheme,
     }),
-    [isLightTheme, toggleTheme],
+    [isLightTheme, toggleTheme]
   );
 
   return <ThemeContext.Provider value={theme}>{children}</ThemeContext.Provider>;
