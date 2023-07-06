@@ -6,11 +6,10 @@
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import React, {
-  useState, useEffect,
-} from 'react';
+import React, { useState, useEffect } from 'react';
 
-import HomeScreen from './src/screens/HomeScreen/HomeScreen.tsx';
+import AudioScreen from './src/screens/audio/audioScreen.tsx';
+import HomeScreen from './src/screens/home/homeScreen.tsx';
 import JsSplashScreen from './src/splashScreen/splash.tsx';
 import ThemeProvider from './src/theming/themeProvider.tsx';
 
@@ -38,6 +37,11 @@ function App() {
           ) : (
             <Stack.Screen name="Home" component={HomeScreen} options={{ headerShown: false }} />
           )}
+          <Stack.Screen
+            name="AudioPlayer"
+            component={AudioScreen}
+            options={{ headerShown: false }}
+          />
         </Stack.Navigator>
       </NavigationContainer>
     </ThemeProvider>
@@ -45,4 +49,3 @@ function App() {
 }
 
 export default App;
-// export { ThemeContext };

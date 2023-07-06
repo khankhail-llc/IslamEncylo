@@ -1,3 +1,4 @@
+import { useNavigation } from '@react-navigation/native';
 import React from 'react';
 import {
   FlatList, Text, TouchableOpacity, View,
@@ -19,9 +20,15 @@ type SurahDataProps = {
 };
 
 function SurahData({ item, theme, style }: SurahDataProps) {
+  const navigation = useNavigation();
+
+  const handleBackPress = () => {
+    navigation.navigate('AudioPlayer' as never);
+  };
+
   return (
     <View style={style.contanier}>
-      <TouchableOpacity style={style.itemContainer}>
+      <TouchableOpacity style={style.itemContainer} onPress={handleBackPress}>
         <View style={style.playButton}>
           <Entypo
             name="controller-play"
@@ -32,7 +39,7 @@ function SurahData({ item, theme, style }: SurahDataProps) {
         </View>
         <View>
           <Text style={style.titleStyle}>{item.title}</Text>
-          <Text style={style.meaningtitle}>{item.meaning}</Text>
+          <Text style={style.meaningtitle}>{item.englishTitle}</Text>
         </View>
         <Text style={[style.titleStyle, style.arabicTitleStyle]}>{item.arabicTittle}</Text>
       </TouchableOpacity>
