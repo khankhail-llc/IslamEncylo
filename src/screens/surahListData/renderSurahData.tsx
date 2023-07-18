@@ -56,11 +56,7 @@ function RenderSurahList({ searchSurah }: RenderSurahListProps) {
   const style = useThemedStyles(styles);
 
   const renderSurahItem = ({ item }: { item: SurahItem }) => (
-    <SurahData
-      item={item}
-      theme={theme}
-      style={style as unknown as Styles}
-    />
+    <SurahData item={item} theme={theme} style={style as unknown as Styles} />
   );
 
   return (

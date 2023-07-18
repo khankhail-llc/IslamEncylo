@@ -1,71 +1,89 @@
-import { Dimensions, StyleSheet } from 'react-native';
+import { Dimensions, StyleSheet, Platform } from 'react-native';
 
 import { Theme } from '../../theming/themeProvider.tsx';
 
-const { width, height } = Dimensions.get('window');
+const { width } = Dimensions.get('window');
 
 const styles = (theme: Theme) => StyleSheet.create({
   activityIndicator: {
-    backgroundColor: '#112',
+    backgroundColor: theme.colors.SEARCHBAR,
     flex: 1,
     justifyContent: 'center',
     padding: 20,
   },
   backgroundImage: {
     flex: 1,
-    justifyContent: 'center',
     resizeMode: 'cover',
   },
   bannerView: {
-    alignItems: 'center',
-    borderRadius: 10,
-    height: height / 2 - 10,
+    alignSelf: 'center',
     justifyContent: 'center',
-    marginBottom: 30,
-    marginTop: 140,
-    width,
+    marginTop: 70,
+    width: '84%',
   },
   headerStyle: {
     alignItems: 'center',
     alignSelf: 'center',
     backgroundColor: theme.colors.SEARCHBARCONTAINER,
-    borderRadius: 12,
     flexDirection: 'row',
     justifyContent: 'space-between',
+    marginLeft: 4,
     padding: 8,
-    width: width - 20,
+    width: width - 10,
   },
   headerText: {
     color: theme.colors.SEARCHBAR,
-    flex: 1,
     fontSize: theme.typography.size.M,
     fontWeight: '600',
     marginRight: 15,
-    textAlign: 'center',
+  },
+  highlightedVerse: {
+    color: theme.colors.ERROR,
+  },
+  highlightedWord: {
+    color: theme.colors.PRIMARY,
   },
   outerContainer: {
+    backgroundColor: theme.colors.THEME,
     flex: 1,
   },
   player: {
     flexDirection: 'row',
     justifyContent: 'space-evenly',
-    marginTop: 20,
+    marginBottom: 30,
+    marginTop: 10,
   },
   sliderStyle: {
-    flex: 1,
-    justifyContent: 'center',
-    width: width - 30,
+    alignSelf: 'center',
+    width: Platform.OS === 'ios' ? width - 20 : width,
   },
   sliderView: {
     alignSelf: 'center',
-    marginTop: 50,
     width: '90%',
   },
   surah: {
+    alignItems: 'center',
     color: theme.colors.SEARCHBAR,
-    fontSize: 28,
-    fontWeight: '700',
+    fontFamily: 'normal',
+    fontSize: 29,
+    fontWeight: '500',
+    justifyContent: 'center',
     lineHeight: 50,
+    textAlign: 'center',
+  },
+  textContainer: {
+    borderBottomWidth: 1,
+  },
+  timerContainer: {
+    alignSelf: 'center',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    width: width - 30,
+  },
+  timerStyle: {
+    color: theme.colors.SEARCHBAR,
+    fontSize: 15,
+    fontWeight: '600',
   },
 });
 

@@ -93,4 +93,4 @@ export type Styles = {
     fontSize: number;
     fontWeight: 'bold';
   };
-}
+};

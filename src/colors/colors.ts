@@ -32,6 +32,7 @@ const colors: Colors = {
     TEXT_SECONDARY: ASBESTOS,
     SEARCHBAR: BLACK,
     STATUSBAR: DARKCONTENT,
+    THEME: WHITE,
   },
   dark: {
     ...common,
@@ -40,6 +41,7 @@ const colors: Colors = {
     TEXT_SECONDARY: SILVER,
     SEARCHBAR: WHITE,
     STATUSBAR: LIGHTCONTENT,
+    THEME: BLACK,
   },
 };
 
