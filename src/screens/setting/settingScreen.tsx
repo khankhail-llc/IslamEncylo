@@ -5,7 +5,7 @@ import {
 } from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
-import BackgroundImage from '../../assets/images/coverImages/launchScreen.png';
+import BackgroundImage from '../../assets/images/coverImages/launchScreen.jpeg';
 import useTheme from '../../theming/useTheme.ts';
 import useThemedStyles from '../../theming/useThemedStyles.ts';
 

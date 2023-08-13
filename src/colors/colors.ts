@@ -2,7 +2,7 @@ const YELLOW = '#e69b00';
 const ASBESTOS = '#7f8c8d';
 const MIDNIGHT_BLUE = '#2c3e50';
 const EMERALD = '#2ecc71';
-const ALIZARIN = '#e74c3c';
+const RED = '#e74c3c';
 const CLOUDS = '#ecf0f1';
 const SILVER = '#bdc3c7';
 const WHITE = '#fff';
@@ -10,11 +10,12 @@ const BLACK = '#000';
 const LIGHTGRY = '#ffFFFF26';
 const LIGHTCONTENT = 'light-content';
 const DARKCONTENT = 'dark-content';
+const DARK = '#101418';
 
 const common: Record<string, string> = {
   PRIMARY: YELLOW,
   SUCCESS: EMERALD,
-  ERROR: ALIZARIN,
+  ERROR: RED,
   SEARCHBARCONTAINER: LIGHTGRY,
   LAUNCHSCREEN: YELLOW,
 };
@@ -32,6 +33,7 @@ const colors: Colors = {
     TEXT_SECONDARY: ASBESTOS,
     SEARCHBAR: BLACK,
     STATUSBAR: DARKCONTENT,
+    THEME: WHITE,
   },
   dark: {
     ...common,
@@ -40,6 +42,7 @@ const colors: Colors = {
     TEXT_SECONDARY: SILVER,
     SEARCHBAR: WHITE,
     STATUSBAR: LIGHTCONTENT,
+    THEME: DARK,
   },
 };
 

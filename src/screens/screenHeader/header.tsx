@@ -4,7 +4,7 @@ import {
   View, Text, Image, TouchableOpacity,
 } from 'react-native';
 
-import HeaderImage from '../../assets/images/reciterImages/a_rehman/a_rehman.png';
+import HeaderImage from '../../assets/images/reciterImages/a_rehman/a_rehman.jpeg';
 import useThemedStyles from '../../theming/useThemedStyles.ts';
 
 import styles from './style.ts';

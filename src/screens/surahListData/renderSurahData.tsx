@@ -1,9 +1,12 @@
+import { useNavigation } from '@react-navigation/native';
 import React from 'react';
-import { FlatList, Text, TouchableOpacity, View } from 'react-native';
+import {
+  FlatList, Text, TouchableOpacity, View,
+} from 'react-native';
 import Entypo from 'react-native-vector-icons/Entypo';
 
 import filterSurah from '../../components/search/filterSearch.tsx';
-import surahList, { SurahItem } from '../../constants/surahList.ts';
+import surahList, { SurahItem } from '../../constants/surahName/surahList.ts';
 import { Theme } from '../../theming/themeProvider.tsx';
 import useTheme from '../../theming/useTheme.ts';
 import useThemedStyles from '../../theming/useThemedStyles.ts';
@@ -16,10 +19,16 @@ type SurahDataProps = {
   style: Styles;
 };
 
-function SurahData({ item, theme, style }: SurahDataProps) {
+function SurahItemComponent({ item, theme, style }: SurahDataProps) {
+  const navigation = useNavigation();
+
+  const handleSurahPress = () => {
+    navigation.navigate('AudioPlayer', { title: item.arabicTittle, surahNo: item.surahNo });
+  };
+
   return (
     <View style={style.contanier}>
-      <TouchableOpacity style={style.itemContainer}>
+      <TouchableOpacity style={style.itemContainer} onPress={handleSurahPress}>
         <View style={style.playButton}>
           <Entypo
             name="controller-play"
@@ -30,7 +39,7 @@ function SurahData({ item, theme, style }: SurahDataProps) {
         </View>
         <View>
           <Text style={style.titleStyle}>{item.title}</Text>
-          <Text style={style.meaningtitle}>{item.meaning}</Text>
+          <Text style={style.meaningtitle}>{item.englishTitle}</Text>
         </View>
         <Text style={[style.titleStyle, style.arabicTitleStyle]}>{item.arabicTittle}</Text>
       </TouchableOpacity>
@@ -47,7 +56,7 @@ function RenderSurahList({ searchSurah }: RenderSurahListProps) {
   const style = useThemedStyles(styles);
 
   const renderSurahItem = ({ item }: { item: SurahItem }) => (
-    <SurahData item={item} theme={theme} style={style as unknown as Styles} />
+    <SurahItemComponent item={item} theme={theme} style={style as unknown as Styles} />
   );
 
   return (

@@ -1,4 +1,4 @@
-import { SurahItem } from '../../constants/surahList.ts';
+import { SurahItem } from '../../constants/surahName/surahList.ts';
 
 const filterSurah = (data: SurahItem[], searchStr = '') => {
   if (searchStr !== '') {
