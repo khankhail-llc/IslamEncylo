@@ -1,11 +1,12 @@
 import surah01 from '../surahText/surah_01.ts';
+import surah02 from '../surahText/surah_02.ts';
 
 const getSurahText = (surah: number) => {
   switch (surah) {
     case 1:
       return surah01;
-    // case 2:
-    //   return surah02;
+    case 2:
+      return surah02;
     // case 3:
     //   return surah03;
     // case 4:
