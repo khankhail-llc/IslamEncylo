@@ -28,7 +28,7 @@ type Colors = {
 const colors: Colors = {
   light: {
     ...common,
-    BACKGROUND: CLOUDS,
+    BACKGROUND: WHITE,
     TEXT: MIDNIGHT_BLUE,
     TEXT_SECONDARY: ASBESTOS,
     SEARCHBAR: BLACK,
@@ -37,7 +37,7 @@ const colors: Colors = {
   },
   dark: {
     ...common,
-    BACKGROUND: MIDNIGHT_BLUE,
+    BACKGROUND: BLACK,
     TEXT: CLOUDS,
     TEXT_SECONDARY: SILVER,
     SEARCHBAR: WHITE,
