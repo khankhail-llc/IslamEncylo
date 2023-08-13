@@ -6,7 +6,7 @@ import {
 import Entypo from 'react-native-vector-icons/Entypo';
 
 import filterSurah from '../../components/search/filterSearch.tsx';
-import surahList, { SurahItem } from '../../constants/surahList.ts';
+import surahList, { SurahItem } from '../../constants/surahName/surahList.ts';
 import { Theme } from '../../theming/themeProvider.tsx';
 import useTheme from '../../theming/useTheme.ts';
 import useThemedStyles from '../../theming/useThemedStyles.ts';
@@ -19,16 +19,16 @@ type SurahDataProps = {
   style: Styles;
 };
 
-function SurahData({ item, theme, style }: SurahDataProps) {
+function SurahItemComponent({ item, theme, style }: SurahDataProps) {
   const navigation = useNavigation();
 
-  const handleBackPress = () => {
-    navigation.navigate('AudioPlayer' as never);
+  const handleSurahPress = () => {
+    navigation.navigate('AudioPlayer', { title: item.arabicTittle, surahNo: item.surahNo });
   };
 
   return (
     <View style={style.contanier}>
-      <TouchableOpacity style={style.itemContainer} onPress={handleBackPress}>
+      <TouchableOpacity style={style.itemContainer} onPress={handleSurahPress}>
         <View style={style.playButton}>
           <Entypo
             name="controller-play"
@@ -56,7 +56,7 @@ function RenderSurahList({ searchSurah }: RenderSurahListProps) {
   const style = useThemedStyles(styles);
 
   const renderSurahItem = ({ item }: { item: SurahItem }) => (
-    <SurahData item={item} theme={theme} style={style as unknown as Styles} />
+    <SurahItemComponent item={item} theme={theme} style={style as unknown as Styles} />
   );
 
   return (

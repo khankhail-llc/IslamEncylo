@@ -11,7 +11,7 @@ import {
 } from 'react-native';
 import SplashScreen from 'react-native-splash-screen';
 
-import launchScreen from '../assets/images/coverImages/launchScreen.png';
+import launchScreen from '../assets/images/coverImages/launchScreen.jpeg';
 import useThemedStyles from '../theming/useThemedStyles.ts';
 
 import styles from './style.ts';

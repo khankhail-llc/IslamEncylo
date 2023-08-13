@@ -5,44 +5,39 @@ import { Theme } from '../../theming/themeProvider.tsx';
 const { width } = Dimensions.get('window');
 
 const styles = (theme: Theme) => StyleSheet.create({
-  activityIndicator: {
-    backgroundColor: theme.colors.SEARCHBAR,
-    flex: 1,
-    justifyContent: 'center',
-    padding: 20,
-  },
   backgroundImage: {
     flex: 1,
     resizeMode: 'cover',
   },
   bannerView: {
     alignSelf: 'center',
+    height: '85%',
     justifyContent: 'center',
-    marginTop: 70,
-    width: '84%',
+    marginTop: 50,
+    marginVertical: 10,
+    width: '80%',
   },
   headerStyle: {
     alignItems: 'center',
     alignSelf: 'center',
     backgroundColor: theme.colors.SEARCHBARCONTAINER,
+    borderRadius: 8,
     flexDirection: 'row',
     justifyContent: 'space-between',
     marginLeft: 4,
     padding: 8,
-    width: width - 10,
+    width: width - 5,
   },
   headerText: {
     color: theme.colors.SEARCHBAR,
-    fontSize: theme.typography.size.M,
-    fontWeight: '600',
-    marginRight: 15,
+    fontFamily: 'Raleway-Regular',
+    fontSize: theme.typography.size.L,
+    fontWeight: '500',
+    marginRight: 18,
   },
-  highlightedVerse: {
-    color: theme.colors.ERROR,
-  },
-  highlightedWord: {
-    color: theme.colors.PRIMARY,
-  },
+  // highlightedVerse: {
+  //   color: 'red',
+  // },
   outerContainer: {
     backgroundColor: theme.colors.THEME,
     flex: 1,
@@ -64,15 +59,11 @@ const styles = (theme: Theme) => StyleSheet.create({
   surah: {
     alignItems: 'center',
     color: theme.colors.SEARCHBAR,
-    fontFamily: 'normal',
-    fontSize: 29,
+    fontFamily: 'Raleway-Regular',
+    fontSize: 32,
     fontWeight: '500',
-    justifyContent: 'center',
-    lineHeight: 50,
+    lineHeight: 60,
     textAlign: 'center',
-  },
-  textContainer: {
-    borderBottomWidth: 1,
   },
   timerContainer: {
     alignSelf: 'center',
@@ -80,6 +71,7 @@ const styles = (theme: Theme) => StyleSheet.create({
     justifyContent: 'space-between',
     width: width - 30,
   },
+
   timerStyle: {
     color: theme.colors.SEARCHBAR,
     fontSize: 15,

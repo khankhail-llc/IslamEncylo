@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, Image } from 'react-native';
 
-import HeaderImage from '../../assets/images/reciterImages/a_rehman/a_rehman.png';
+import HeaderImage from '../../assets/images/reciterImages/a_rehman/a_rehman.jpeg';
 import useThemedStyles from '../../theming/useThemedStyles.ts';
 
 import styles from './style.ts';

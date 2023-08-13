@@ -10,6 +10,7 @@ const BLACK = '#000';
 const LIGHTGRY = '#ffFFFF26';
 const LIGHTCONTENT = 'light-content';
 const DARKCONTENT = 'dark-content';
+const DARK = '#101418';
 
 const common: Record<string, string> = {
   PRIMARY: YELLOW,
@@ -41,7 +42,7 @@ const colors: Colors = {
     TEXT_SECONDARY: SILVER,
     SEARCHBAR: WHITE,
     STATUSBAR: LIGHTCONTENT,
-    THEME: BLACK,
+    THEME: DARK,
   },
 };
 
