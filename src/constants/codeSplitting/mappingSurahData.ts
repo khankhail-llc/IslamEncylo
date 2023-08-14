@@ -2,6 +2,19 @@ import surah01 from '../surahText/surah_01.ts';
 import surah02 from '../surahText/surah_02.ts';
 import surah03 from '../surahText/surah_03.ts';
 import surah04 from '../surahText/surah_04.ts';
+import surah05 from '../surahText/surah_05.ts';
+import surah06 from '../surahText/surah_06.ts';
+import surah07 from '../surahText/surah_07.ts';
+import surah08 from '../surahText/surah_08.ts';
+import surah09 from '../surahText/surah_09.ts';
+import surah10 from '../surahText/surah_10.ts';
+import surah11 from '../surahText/surah_11.ts';
+import surah12 from '../surahText/surah_12.ts';
+import surah13 from '../surahText/surah_13.ts';
+import surah14 from '../surahText/surah_14.ts';
+import surah15 from '../surahText/surah_15.ts';
+import surah16 from '../surahText/surah_16.ts';
+import surah17 from '../surahText/surah_17.ts';
 
 const getSurahText = (surah: number) => {
   switch (surah) {
@@ -13,32 +26,32 @@ const getSurahText = (surah: number) => {
       return surah03;
     case 4:
       return surah04;
-    // case 5:
-    //   return surah05;
-    // case 6:
-    //   return surah06;
-    // case 7:
-    //   return surah07;
-    // case 8:
-    //   return surah08;
-    // case 9:
-    //   return surah09;
-    // case 10:
-    //   return surah10;
-    // case 11:
-    //   return surah11;
-    // case 12:
-    //   return surah12;
-    // case 13:
-    //   return surah13;
-    // case 14:
-    //   return surah14;
-    // case 15:
-    //   return surah15;
-    // case 16:
-    //   return surah16;
-    // case 17:
-    //   return surah17;
+    case 5:
+      return surah05;
+    case 6:
+      return surah06;
+    case 7:
+      return surah07;
+    case 8:
+      return surah08;
+    case 9:
+      return surah09;
+    case 10:
+      return surah10;
+    case 11:
+      return surah11;
+    case 12:
+      return surah12;
+    case 13:
+      return surah13;
+    case 14:
+      return surah14;
+    case 15:
+      return surah15;
+    case 16:
+      return surah16;
+    case 17:
+      return surah17;
     // case 18:
     //   return surah18;
     // case 19:
