@@ -15,6 +15,9 @@ import surah14 from '../surahText/surah_14.ts';
 import surah15 from '../surahText/surah_15.ts';
 import surah16 from '../surahText/surah_16.ts';
 import surah17 from '../surahText/surah_17.ts';
+import surah18 from '../surahText/surah_18.ts';
+import surah19 from '../surahText/surah_19.ts';
+import surah20 from '../surahText/surah_20.ts';
 
 const getSurahText = (surah: number) => {
   switch (surah) {
@@ -52,12 +55,12 @@ const getSurahText = (surah: number) => {
       return surah16;
     case 17:
       return surah17;
-    // case 18:
-    //   return surah18;
-    // case 19:
-    //   return surah19;
-    // case 20:
-    //   return surah20;
+    case 18:
+      return surah18;
+    case 19:
+      return surah19;
+    case 20:
+      return surah20;
     // case 21:
     //   return surah21;
     // case 22:
