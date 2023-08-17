@@ -10145,41 +10145,3157 @@ const audioPath: Surah[] = [
   {
     name: 'Al-Anbiya',
     surahNo: 21,
-    verses: [],
+    verses: [
+      {
+        ayahNo: 0,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_02/002000.mp3'),
+      },
+      {
+        ayahNo: 1,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021001.mp3'),
+      },
+      {
+        ayahNo: 2,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021002.mp3'),
+      },
+      {
+        ayahNo: 3,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021003.mp3'),
+      },
+      {
+        ayahNo: 4,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021004.mp3'),
+      },
+      {
+        ayahNo: 5,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021005.mp3'),
+      },
+      {
+        ayahNo: 6,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021006.mp3'),
+      },
+      {
+        ayahNo: 7,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021007.mp3'),
+      },
+      {
+        ayahNo: 8,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021008.mp3'),
+      },
+      {
+        ayahNo: 9,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021009.mp3'),
+      },
+      {
+        ayahNo: 10,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021010.mp3'),
+      },
+      {
+        ayahNo: 11,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021011.mp3'),
+      },
+      {
+        ayahNo: 12,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021012.mp3'),
+      },
+      {
+        ayahNo: 13,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021013.mp3'),
+      },
+      {
+        ayahNo: 14,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021014.mp3'),
+      },
+      {
+        ayahNo: 15,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021015.mp3'),
+      },
+      {
+        ayahNo: 16,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021016.mp3'),
+      },
+      {
+        ayahNo: 17,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021017.mp3'),
+      },
+      {
+        ayahNo: 18,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021018.mp3'),
+      },
+      {
+        ayahNo: 19,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021019.mp3'),
+      },
+      {
+        ayahNo: 20,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021020.mp3'),
+      },
+      {
+        ayahNo: 21,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021021.mp3'),
+      },
+      {
+        ayahNo: 22,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021022.mp3'),
+      },
+      {
+        ayahNo: 23,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021023.mp3'),
+      },
+      {
+        ayahNo: 24,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021024.mp3'),
+      },
+      {
+        ayahNo: 25,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021025.mp3'),
+      },
+      {
+        ayahNo: 26,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021026.mp3'),
+      },
+      {
+        ayahNo: 27,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021027.mp3'),
+      },
+      {
+        ayahNo: 28,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021028.mp3'),
+      },
+      {
+        ayahNo: 29,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021029.mp3'),
+      },
+      {
+        ayahNo: 30,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021030.mp3'),
+      },
+      {
+        ayahNo: 31,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021031.mp3'),
+      },
+      {
+        ayahNo: 32,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021032.mp3'),
+      },
+      {
+        ayahNo: 33,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021033.mp3'),
+      },
+      {
+        ayahNo: 34,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021034.mp3'),
+      },
+      {
+        ayahNo: 35,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021035.mp3'),
+      },
+      {
+        ayahNo: 36,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021036.mp3'),
+      },
+      {
+        ayahNo: 37,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021037.mp3'),
+      },
+      {
+        ayahNo: 38,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021038.mp3'),
+      },
+      {
+        ayahNo: 39,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021039.mp3'),
+      },
+      {
+        ayahNo: 40,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021040.mp3'),
+      },
+      {
+        ayahNo: 41,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021041.mp3'),
+      },
+      {
+        ayahNo: 42,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021042.mp3'),
+      },
+      {
+        ayahNo: 43,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021043.mp3'),
+      },
+      {
+        ayahNo: 44,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021044.mp3'),
+      },
+      {
+        ayahNo: 45,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021045.mp3'),
+      },
+      {
+        ayahNo: 46,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021046.mp3'),
+      },
+      {
+        ayahNo: 47,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021047.mp3'),
+      },
+      {
+        ayahNo: 48,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021048.mp3'),
+      },
+      {
+        ayahNo: 49,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021049.mp3'),
+      },
+      {
+        ayahNo: 50,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021050.mp3'),
+      },
+      {
+        ayahNo: 51,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021051.mp3'),
+      },
+      {
+        ayahNo: 52,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021052.mp3'),
+      },
+      {
+        ayahNo: 53,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021053.mp3'),
+      },
+      {
+        ayahNo: 54,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021054.mp3'),
+      },
+      {
+        ayahNo: 55,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021055.mp3'),
+      },
+      {
+        ayahNo: 56,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021056.mp3'),
+      },
+      {
+        ayahNo: 57,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021057.mp3'),
+      },
+      {
+        ayahNo: 58,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021058.mp3'),
+      },
+      {
+        ayahNo: 59,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021059.mp3'),
+      },
+      {
+        ayahNo: 60,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021060.mp3'),
+      },
+      {
+        ayahNo: 61,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021061.mp3'),
+      },
+      {
+        ayahNo: 62,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021062.mp3'),
+      },
+      {
+        ayahNo: 63,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021063.mp3'),
+      },
+      {
+        ayahNo: 64,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021064.mp3'),
+      },
+      {
+        ayahNo: 65,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021065.mp3'),
+      },
+      {
+        ayahNo: 66,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021066.mp3'),
+      },
+      {
+        ayahNo: 67,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021067.mp3'),
+      },
+      {
+        ayahNo: 68,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021068.mp3'),
+      },
+      {
+        ayahNo: 69,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021069.mp3'),
+      },
+      {
+        ayahNo: 70,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021070.mp3'),
+      },
+      {
+        ayahNo: 71,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021071.mp3'),
+      },
+      {
+        ayahNo: 72,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021072.mp3'),
+      },
+      {
+        ayahNo: 73,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021073.mp3'),
+      },
+      {
+        ayahNo: 74,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021074.mp3'),
+      },
+      {
+        ayahNo: 75,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021075.mp3'),
+      },
+      {
+        ayahNo: 76,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021076.mp3'),
+      },
+      {
+        ayahNo: 77,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021077.mp3'),
+      },
+      {
+        ayahNo: 78,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021078.mp3'),
+      },
+      {
+        ayahNo: 79,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021079.mp3'),
+      },
+      {
+        ayahNo: 80,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021080.mp3'),
+      },
+      {
+        ayahNo: 81,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021081.mp3'),
+      },
+      {
+        ayahNo: 82,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021082.mp3'),
+      },
+      {
+        ayahNo: 83,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021083.mp3'),
+      },
+      {
+        ayahNo: 84,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021084.mp3'),
+      },
+      {
+        ayahNo: 85,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021085.mp3'),
+      },
+      {
+        ayahNo: 86,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021086.mp3'),
+      },
+      {
+        ayahNo: 87,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021087.mp3'),
+      },
+      {
+        ayahNo: 88,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021088.mp3'),
+      },
+      {
+        ayahNo: 89,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021089.mp3'),
+      },
+      {
+        ayahNo: 90,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021090.mp3'),
+      },
+      {
+        ayahNo: 91,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021091.mp3'),
+      },
+      {
+        ayahNo: 92,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021092.mp3'),
+      },
+      {
+        ayahNo: 93,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021093.mp3'),
+      },
+      {
+        ayahNo: 94,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021094.mp3'),
+      },
+      {
+        ayahNo: 95,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021095.mp3'),
+      },
+      {
+        ayahNo: 96,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021096.mp3'),
+      },
+      {
+        ayahNo: 97,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021097.mp3'),
+      },
+      {
+        ayahNo: 98,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021098.mp3'),
+      },
+      {
+        ayahNo: 99,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021099.mp3'),
+      },
+      {
+        ayahNo: 100,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021100.mp3'),
+      },
+      {
+        ayahNo: 101,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021101.mp3'),
+      },
+      {
+        ayahNo: 102,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021102.mp3'),
+      },
+      {
+        ayahNo: 103,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021103.mp3'),
+      },
+      {
+        ayahNo: 104,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021104.mp3'),
+      },
+      {
+        ayahNo: 105,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021105.mp3'),
+      },
+      {
+        ayahNo: 106,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021106.mp3'),
+      },
+      {
+        ayahNo: 107,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021107.mp3'),
+      },
+      {
+        ayahNo: 108,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021108.mp3'),
+      },
+      {
+        ayahNo: 109,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021109.mp3'),
+      },
+      {
+        ayahNo: 110,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021110.mp3'),
+      },
+      {
+        ayahNo: 111,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021111.mp3'),
+      },
+      {
+        ayahNo: 112,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_21/021112.mp3'),
+      },
+    ],
   },
   {
     name: 'Al-Hajj',
     surahNo: 22,
-    verses: [],
+    verses: [
+      {
+        ayahNo: 0,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_02/002000.mp3'),
+      },
+      {
+        ayahNo: 1,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022001.mp3'),
+      },
+      {
+        ayahNo: 2,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022002.mp3'),
+      },
+      {
+        ayahNo: 3,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022003.mp3'),
+      },
+      {
+        ayahNo: 4,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022004.mp3'),
+      },
+      {
+        ayahNo: 5,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022005.mp3'),
+      },
+      {
+        ayahNo: 6,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022006.mp3'),
+      },
+      {
+        ayahNo: 7,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022007.mp3'),
+      },
+      {
+        ayahNo: 8,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022008.mp3'),
+      },
+      {
+        ayahNo: 9,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022009.mp3'),
+      },
+      {
+        ayahNo: 10,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022010.mp3'),
+      },
+      {
+        ayahNo: 11,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022011.mp3'),
+      },
+      {
+        ayahNo: 12,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022012.mp3'),
+      },
+      {
+        ayahNo: 13,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022013.mp3'),
+      },
+      {
+        ayahNo: 14,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022014.mp3'),
+      },
+      {
+        ayahNo: 15,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022015.mp3'),
+      },
+      {
+        ayahNo: 16,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022016.mp3'),
+      },
+      {
+        ayahNo: 17,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022017.mp3'),
+      },
+      {
+        ayahNo: 18,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022018.mp3'),
+      },
+      {
+        ayahNo: 19,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022019.mp3'),
+      },
+      {
+        ayahNo: 20,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022020.mp3'),
+      },
+      {
+        ayahNo: 21,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022021.mp3'),
+      },
+      {
+        ayahNo: 22,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022022.mp3'),
+      },
+      {
+        ayahNo: 23,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022023.mp3'),
+      },
+      {
+        ayahNo: 24,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022024.mp3'),
+      },
+      {
+        ayahNo: 25,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022025.mp3'),
+      },
+      {
+        ayahNo: 26,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022026.mp3'),
+      },
+      {
+        ayahNo: 27,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022027.mp3'),
+      },
+      {
+        ayahNo: 28,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022028.mp3'),
+      },
+      {
+        ayahNo: 29,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022029.mp3'),
+      },
+      {
+        ayahNo: 30,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022030.mp3'),
+      },
+      {
+        ayahNo: 31,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022031.mp3'),
+      },
+      {
+        ayahNo: 32,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022032.mp3'),
+      },
+      {
+        ayahNo: 33,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022033.mp3'),
+      },
+      {
+        ayahNo: 34,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022034.mp3'),
+      },
+      {
+        ayahNo: 35,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022035.mp3'),
+      },
+      {
+        ayahNo: 36,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022036.mp3'),
+      },
+      {
+        ayahNo: 37,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022037.mp3'),
+      },
+      {
+        ayahNo: 38,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022038.mp3'),
+      },
+      {
+        ayahNo: 39,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022039.mp3'),
+      },
+      {
+        ayahNo: 40,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022040.mp3'),
+      },
+      {
+        ayahNo: 41,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022041.mp3'),
+      },
+      {
+        ayahNo: 42,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022042.mp3'),
+      },
+      {
+        ayahNo: 43,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022043.mp3'),
+      },
+      {
+        ayahNo: 44,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022044.mp3'),
+      },
+      {
+        ayahNo: 45,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022045.mp3'),
+      },
+      {
+        ayahNo: 46,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022046.mp3'),
+      },
+      {
+        ayahNo: 47,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022047.mp3'),
+      },
+      {
+        ayahNo: 48,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022048.mp3'),
+      },
+      {
+        ayahNo: 49,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022049.mp3'),
+      },
+      {
+        ayahNo: 50,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022050.mp3'),
+      },
+      {
+        ayahNo: 51,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022051.mp3'),
+      },
+      {
+        ayahNo: 52,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022052.mp3'),
+      },
+      {
+        ayahNo: 53,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022053.mp3'),
+      },
+      {
+        ayahNo: 54,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022054.mp3'),
+      },
+      {
+        ayahNo: 55,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022055.mp3'),
+      },
+      {
+        ayahNo: 56,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022056.mp3'),
+      },
+      {
+        ayahNo: 57,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022057.mp3'),
+      },
+      {
+        ayahNo: 58,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022058.mp3'),
+      },
+      {
+        ayahNo: 59,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022059.mp3'),
+      },
+      {
+        ayahNo: 60,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022060.mp3'),
+      },
+      {
+        ayahNo: 61,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022061.mp3'),
+      },
+      {
+        ayahNo: 62,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022062.mp3'),
+      },
+      {
+        ayahNo: 63,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022063.mp3'),
+      },
+      {
+        ayahNo: 64,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022064.mp3'),
+      },
+      {
+        ayahNo: 65,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022065.mp3'),
+      },
+      {
+        ayahNo: 66,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022066.mp3'),
+      },
+      {
+        ayahNo: 67,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022067.mp3'),
+      },
+      {
+        ayahNo: 68,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022068.mp3'),
+      },
+      {
+        ayahNo: 69,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022069.mp3'),
+      },
+      {
+        ayahNo: 70,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022070.mp3'),
+      },
+      {
+        ayahNo: 71,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022071.mp3'),
+      },
+      {
+        ayahNo: 72,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022072.mp3'),
+      },
+      {
+        ayahNo: 73,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022073.mp3'),
+      },
+      {
+        ayahNo: 74,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022074.mp3'),
+      },
+      {
+        ayahNo: 75,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022075.mp3'),
+      },
+      {
+        ayahNo: 76,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022076.mp3'),
+      },
+      {
+        ayahNo: 77,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022077.mp3'),
+      },
+      {
+        ayahNo: 78,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_22/022078.mp3'),
+      },
+    ],
   },
   {
     name: 'Al-Muminun',
     surahNo: 23,
-    verses: [],
+    verses: [
+      {
+        ayahNo: 0,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_02/002000.mp3'),
+      },
+      {
+        ayahNo: 1,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023001.mp3'),
+      },
+      {
+        ayahNo: 2,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023002.mp3'),
+      },
+      {
+        ayahNo: 3,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023003.mp3'),
+      },
+      {
+        ayahNo: 4,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023004.mp3'),
+      },
+      {
+        ayahNo: 5,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023005.mp3'),
+      },
+      {
+        ayahNo: 6,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023006.mp3'),
+      },
+      {
+        ayahNo: 7,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023007.mp3'),
+      },
+      {
+        ayahNo: 8,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023008.mp3'),
+      },
+      {
+        ayahNo: 9,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023009.mp3'),
+      },
+      {
+        ayahNo: 10,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023010.mp3'),
+      },
+      {
+        ayahNo: 11,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023011.mp3'),
+      },
+      {
+        ayahNo: 12,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023012.mp3'),
+      },
+      {
+        ayahNo: 13,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023013.mp3'),
+      },
+      {
+        ayahNo: 14,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023014.mp3'),
+      },
+      {
+        ayahNo: 15,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023015.mp3'),
+      },
+      {
+        ayahNo: 16,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023016.mp3'),
+      },
+      {
+        ayahNo: 17,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023017.mp3'),
+      },
+      {
+        ayahNo: 18,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023018.mp3'),
+      },
+      {
+        ayahNo: 19,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023019.mp3'),
+      },
+      {
+        ayahNo: 20,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023020.mp3'),
+      },
+      {
+        ayahNo: 21,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023021.mp3'),
+      },
+      {
+        ayahNo: 22,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023022.mp3'),
+      },
+      {
+        ayahNo: 23,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023023.mp3'),
+      },
+      {
+        ayahNo: 24,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023024.mp3'),
+      },
+      {
+        ayahNo: 25,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023025.mp3'),
+      },
+      {
+        ayahNo: 26,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023026.mp3'),
+      },
+      {
+        ayahNo: 27,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023027.mp3'),
+      },
+      {
+        ayahNo: 28,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023028.mp3'),
+      },
+      {
+        ayahNo: 29,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023029.mp3'),
+      },
+      {
+        ayahNo: 30,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023030.mp3'),
+      },
+      {
+        ayahNo: 31,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023031.mp3'),
+      },
+      {
+        ayahNo: 32,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023032.mp3'),
+      },
+      {
+        ayahNo: 33,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023033.mp3'),
+      },
+      {
+        ayahNo: 34,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023034.mp3'),
+      },
+      {
+        ayahNo: 35,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023035.mp3'),
+      },
+      {
+        ayahNo: 36,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023036.mp3'),
+      },
+      {
+        ayahNo: 37,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023037.mp3'),
+      },
+      {
+        ayahNo: 38,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023038.mp3'),
+      },
+      {
+        ayahNo: 39,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023039.mp3'),
+      },
+      {
+        ayahNo: 40,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023040.mp3'),
+      },
+      {
+        ayahNo: 41,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023041.mp3'),
+      },
+      {
+        ayahNo: 42,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023042.mp3'),
+      },
+      {
+        ayahNo: 43,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023043.mp3'),
+      },
+      {
+        ayahNo: 44,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023044.mp3'),
+      },
+      {
+        ayahNo: 45,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023045.mp3'),
+      },
+      {
+        ayahNo: 46,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023046.mp3'),
+      },
+      {
+        ayahNo: 47,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023047.mp3'),
+      },
+      {
+        ayahNo: 48,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023048.mp3'),
+      },
+      {
+        ayahNo: 49,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023049.mp3'),
+      },
+      {
+        ayahNo: 50,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023050.mp3'),
+      },
+      {
+        ayahNo: 51,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023051.mp3'),
+      },
+      {
+        ayahNo: 52,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023052.mp3'),
+      },
+      {
+        ayahNo: 53,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023053.mp3'),
+      },
+      {
+        ayahNo: 54,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023054.mp3'),
+      },
+      {
+        ayahNo: 55,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023055.mp3'),
+      },
+      {
+        ayahNo: 56,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023056.mp3'),
+      },
+      {
+        ayahNo: 57,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023057.mp3'),
+      },
+      {
+        ayahNo: 58,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023058.mp3'),
+      },
+      {
+        ayahNo: 59,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023059.mp3'),
+      },
+      {
+        ayahNo: 60,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023060.mp3'),
+      },
+      {
+        ayahNo: 61,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023061.mp3'),
+      },
+      {
+        ayahNo: 62,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023062.mp3'),
+      },
+      {
+        ayahNo: 63,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023063.mp3'),
+      },
+      {
+        ayahNo: 64,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023064.mp3'),
+      },
+      {
+        ayahNo: 65,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023065.mp3'),
+      },
+      {
+        ayahNo: 66,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023066.mp3'),
+      },
+      {
+        ayahNo: 67,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023067.mp3'),
+      },
+      {
+        ayahNo: 68,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023068.mp3'),
+      },
+      {
+        ayahNo: 69,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023069.mp3'),
+      },
+      {
+        ayahNo: 70,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023070.mp3'),
+      },
+      {
+        ayahNo: 71,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023071.mp3'),
+      },
+      {
+        ayahNo: 72,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023072.mp3'),
+      },
+      {
+        ayahNo: 73,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023073.mp3'),
+      },
+      {
+        ayahNo: 74,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023074.mp3'),
+      },
+      {
+        ayahNo: 75,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023075.mp3'),
+      },
+      {
+        ayahNo: 76,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023076.mp3'),
+      },
+      {
+        ayahNo: 77,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023077.mp3'),
+      },
+      {
+        ayahNo: 78,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023078.mp3'),
+      },
+      {
+        ayahNo: 79,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023079.mp3'),
+      },
+      {
+        ayahNo: 80,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023080.mp3'),
+      },
+      {
+        ayahNo: 81,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023081.mp3'),
+      },
+      {
+        ayahNo: 82,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023082.mp3'),
+      },
+      {
+        ayahNo: 83,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023083.mp3'),
+      },
+      {
+        ayahNo: 84,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023084.mp3'),
+      },
+      {
+        ayahNo: 85,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023085.mp3'),
+      },
+      {
+        ayahNo: 86,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023086.mp3'),
+      },
+      {
+        ayahNo: 87,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023087.mp3'),
+      },
+      {
+        ayahNo: 88,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023088.mp3'),
+      },
+      {
+        ayahNo: 89,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023089.mp3'),
+      },
+      {
+        ayahNo: 90,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023090.mp3'),
+      },
+      {
+        ayahNo: 91,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023091.mp3'),
+      },
+      {
+        ayahNo: 92,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023092.mp3'),
+      },
+      {
+        ayahNo: 93,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023093.mp3'),
+      },
+      {
+        ayahNo: 94,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023094.mp3'),
+      },
+      {
+        ayahNo: 95,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023095.mp3'),
+      },
+      {
+        ayahNo: 96,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023096.mp3'),
+      },
+      {
+        ayahNo: 97,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023097.mp3'),
+      },
+      {
+        ayahNo: 98,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023098.mp3'),
+      },
+      {
+        ayahNo: 99,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023099.mp3'),
+      },
+      {
+        ayahNo: 100,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023100.mp3'),
+      },
+      {
+        ayahNo: 101,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023101.mp3'),
+      },
+      {
+        ayahNo: 102,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023102.mp3'),
+      },
+      {
+        ayahNo: 103,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023103.mp3'),
+      },
+      {
+        ayahNo: 104,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023104.mp3'),
+      },
+      {
+        ayahNo: 105,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023105.mp3'),
+      },
+      {
+        ayahNo: 106,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023106.mp3'),
+      },
+      {
+        ayahNo: 107,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023107.mp3'),
+      },
+      {
+        ayahNo: 108,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023108.mp3'),
+      },
+      {
+        ayahNo: 109,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023109.mp3'),
+      },
+      {
+        ayahNo: 110,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023110.mp3'),
+      },
+      {
+        ayahNo: 111,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023111.mp3'),
+      },
+      {
+        ayahNo: 112,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023112.mp3'),
+      },
+      {
+        ayahNo: 113,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023113.mp3'),
+      },
+      {
+        ayahNo: 114,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023114.mp3'),
+      },
+      {
+        ayahNo: 115,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023115.mp3'),
+      },
+      {
+        ayahNo: 116,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023116.mp3'),
+      },
+      {
+        ayahNo: 117,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023117.mp3'),
+      },
+      {
+        ayahNo: 118,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_23/023118.mp3'),
+      },
+    ],
   },
   {
     name: 'An-Nur',
     surahNo: 24,
-    verses: [],
+    verses: [
+      {
+        ayahNo: 0,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_02/002000.mp3'),
+      },
+      {
+        ayahNo: 1,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024001.mp3'),
+      },
+      {
+        ayahNo: 2,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024002.mp3'),
+      },
+      {
+        ayahNo: 3,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024003.mp3'),
+      },
+      {
+        ayahNo: 4,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024004.mp3'),
+      },
+      {
+        ayahNo: 5,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024005.mp3'),
+      },
+      {
+        ayahNo: 6,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024006.mp3'),
+      },
+      {
+        ayahNo: 7,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024007.mp3'),
+      },
+      {
+        ayahNo: 8,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024008.mp3'),
+      },
+      {
+        ayahNo: 9,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024009.mp3'),
+      },
+      {
+        ayahNo: 10,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024010.mp3'),
+      },
+      {
+        ayahNo: 11,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024011.mp3'),
+      },
+      {
+        ayahNo: 12,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024012.mp3'),
+      },
+      {
+        ayahNo: 13,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024013.mp3'),
+      },
+      {
+        ayahNo: 14,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024014.mp3'),
+      },
+      {
+        ayahNo: 15,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024015.mp3'),
+      },
+      {
+        ayahNo: 16,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024016.mp3'),
+      },
+      {
+        ayahNo: 17,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024017.mp3'),
+      },
+      {
+        ayahNo: 18,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024018.mp3'),
+      },
+      {
+        ayahNo: 19,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024019.mp3'),
+      },
+      {
+        ayahNo: 20,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024020.mp3'),
+      },
+      {
+        ayahNo: 21,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024021.mp3'),
+      },
+      {
+        ayahNo: 22,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024022.mp3'),
+      },
+      {
+        ayahNo: 23,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024023.mp3'),
+      },
+      {
+        ayahNo: 24,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024024.mp3'),
+      },
+      {
+        ayahNo: 25,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024025.mp3'),
+      },
+      {
+        ayahNo: 26,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024026.mp3'),
+      },
+      {
+        ayahNo: 27,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024027.mp3'),
+      },
+      {
+        ayahNo: 28,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024028.mp3'),
+      },
+      {
+        ayahNo: 29,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024029.mp3'),
+      },
+      {
+        ayahNo: 30,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024030.mp3'),
+      },
+      {
+        ayahNo: 31,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024031.mp3'),
+      },
+      {
+        ayahNo: 32,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024032.mp3'),
+      },
+      {
+        ayahNo: 33,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024033.mp3'),
+      },
+      {
+        ayahNo: 34,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024034.mp3'),
+      },
+      {
+        ayahNo: 35,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024035.mp3'),
+      },
+      {
+        ayahNo: 36,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024036.mp3'),
+      },
+      {
+        ayahNo: 37,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024037.mp3'),
+      },
+      {
+        ayahNo: 38,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024038.mp3'),
+      },
+      {
+        ayahNo: 39,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024039.mp3'),
+      },
+      {
+        ayahNo: 40,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024040.mp3'),
+      },
+      {
+        ayahNo: 41,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024041.mp3'),
+      },
+      {
+        ayahNo: 42,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024042.mp3'),
+      },
+      {
+        ayahNo: 43,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024043.mp3'),
+      },
+      {
+        ayahNo: 44,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024044.mp3'),
+      },
+      {
+        ayahNo: 45,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024045.mp3'),
+      },
+      {
+        ayahNo: 46,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024046.mp3'),
+      },
+      {
+        ayahNo: 47,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024047.mp3'),
+      },
+      {
+        ayahNo: 48,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024048.mp3'),
+      },
+      {
+        ayahNo: 49,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024049.mp3'),
+      },
+      {
+        ayahNo: 50,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024050.mp3'),
+      },
+      {
+        ayahNo: 51,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024051.mp3'),
+      },
+      {
+        ayahNo: 52,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024052.mp3'),
+      },
+      {
+        ayahNo: 53,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024053.mp3'),
+      },
+      {
+        ayahNo: 54,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024054.mp3'),
+      },
+      {
+        ayahNo: 55,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024055.mp3'),
+      },
+      {
+        ayahNo: 56,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024056.mp3'),
+      },
+      {
+        ayahNo: 57,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024057.mp3'),
+      },
+      {
+        ayahNo: 58,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024058.mp3'),
+      },
+      {
+        ayahNo: 59,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024059.mp3'),
+      },
+      {
+        ayahNo: 60,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024060.mp3'),
+      },
+      {
+        ayahNo: 61,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024061.mp3'),
+      },
+      {
+        ayahNo: 62,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024062.mp3'),
+      },
+      {
+        ayahNo: 63,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024063.mp3'),
+      },
+      {
+        ayahNo: 64,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_24/024064.mp3'),
+      },
+    ],
   },
   {
     name: 'Al-Furqan',
     surahNo: 25,
-    verses: [],
+    verses: [
+      {
+        ayahNo: 0,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_02/002000.mp3'),
+      },
+      {
+        ayahNo: 1,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025001.mp3'),
+      },
+      {
+        ayahNo: 2,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025002.mp3'),
+      },
+      {
+        ayahNo: 3,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025003.mp3'),
+      },
+      {
+        ayahNo: 4,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025004.mp3'),
+      },
+      {
+        ayahNo: 5,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025005.mp3'),
+      },
+      {
+        ayahNo: 6,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025006.mp3'),
+      },
+      {
+        ayahNo: 7,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025007.mp3'),
+      },
+      {
+        ayahNo: 8,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025008.mp3'),
+      },
+      {
+        ayahNo: 9,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025009.mp3'),
+      },
+      {
+        ayahNo: 10,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025010.mp3'),
+      },
+      {
+        ayahNo: 11,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025011.mp3'),
+      },
+      {
+        ayahNo: 12,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025012.mp3'),
+      },
+      {
+        ayahNo: 13,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025013.mp3'),
+      },
+      {
+        ayahNo: 14,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025014.mp3'),
+      },
+      {
+        ayahNo: 15,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025015.mp3'),
+      },
+      {
+        ayahNo: 16,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025016.mp3'),
+      },
+      {
+        ayahNo: 17,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025017.mp3'),
+      },
+      {
+        ayahNo: 18,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025018.mp3'),
+      },
+      {
+        ayahNo: 19,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025019.mp3'),
+      },
+      {
+        ayahNo: 20,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025020.mp3'),
+      },
+      {
+        ayahNo: 21,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025021.mp3'),
+      },
+      {
+        ayahNo: 22,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025022.mp3'),
+      },
+      {
+        ayahNo: 23,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025023.mp3'),
+      },
+      {
+        ayahNo: 24,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025024.mp3'),
+      },
+      {
+        ayahNo: 25,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025025.mp3'),
+      },
+      {
+        ayahNo: 26,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025026.mp3'),
+      },
+      {
+        ayahNo: 27,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025027.mp3'),
+      },
+      {
+        ayahNo: 28,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025028.mp3'),
+      },
+      {
+        ayahNo: 29,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025029.mp3'),
+      },
+      {
+        ayahNo: 30,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025030.mp3'),
+      },
+      {
+        ayahNo: 31,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025031.mp3'),
+      },
+      {
+        ayahNo: 32,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025032.mp3'),
+      },
+      {
+        ayahNo: 33,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025033.mp3'),
+      },
+      {
+        ayahNo: 34,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025034.mp3'),
+      },
+      {
+        ayahNo: 35,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025035.mp3'),
+      },
+      {
+        ayahNo: 36,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025036.mp3'),
+      },
+      {
+        ayahNo: 37,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025037.mp3'),
+      },
+      {
+        ayahNo: 38,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025038.mp3'),
+      },
+      {
+        ayahNo: 39,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025039.mp3'),
+      },
+      {
+        ayahNo: 40,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025040.mp3'),
+      },
+      {
+        ayahNo: 41,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025041.mp3'),
+      },
+      {
+        ayahNo: 42,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025042.mp3'),
+      },
+      {
+        ayahNo: 43,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025043.mp3'),
+      },
+      {
+        ayahNo: 44,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025044.mp3'),
+      },
+      {
+        ayahNo: 45,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025045.mp3'),
+      },
+      {
+        ayahNo: 46,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025046.mp3'),
+      },
+      {
+        ayahNo: 47,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025047.mp3'),
+      },
+      {
+        ayahNo: 48,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025048.mp3'),
+      },
+      {
+        ayahNo: 49,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025049.mp3'),
+      },
+      {
+        ayahNo: 50,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025050.mp3'),
+      },
+      {
+        ayahNo: 51,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025051.mp3'),
+      },
+      {
+        ayahNo: 52,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025052.mp3'),
+      },
+      {
+        ayahNo: 53,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025053.mp3'),
+      },
+      {
+        ayahNo: 54,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025054.mp3'),
+      },
+      {
+        ayahNo: 55,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025055.mp3'),
+      },
+      {
+        ayahNo: 56,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025056.mp3'),
+      },
+      {
+        ayahNo: 57,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025057.mp3'),
+      },
+      {
+        ayahNo: 58,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025058.mp3'),
+      },
+      {
+        ayahNo: 59,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025059.mp3'),
+      },
+      {
+        ayahNo: 60,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025060.mp3'),
+      },
+      {
+        ayahNo: 61,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025061.mp3'),
+      },
+      {
+        ayahNo: 62,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025062.mp3'),
+      },
+      {
+        ayahNo: 63,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025063.mp3'),
+      },
+      {
+        ayahNo: 64,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025064.mp3'),
+      },
+      {
+        ayahNo: 65,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025065.mp3'),
+      },
+      {
+        ayahNo: 66,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025066.mp3'),
+      },
+      {
+        ayahNo: 67,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025067.mp3'),
+      },
+      {
+        ayahNo: 68,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025068.mp3'),
+      },
+      {
+        ayahNo: 69,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025069.mp3'),
+      },
+      {
+        ayahNo: 70,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025070.mp3'),
+      },
+      {
+        ayahNo: 71,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025071.mp3'),
+      },
+      {
+        ayahNo: 72,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025072.mp3'),
+      },
+      {
+        ayahNo: 73,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025073.mp3'),
+      },
+      {
+        ayahNo: 74,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025074.mp3'),
+      },
+      {
+        ayahNo: 75,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025075.mp3'),
+      },
+      {
+        ayahNo: 76,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025076.mp3'),
+      },
+      {
+        ayahNo: 77,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_25/025077.mp3'),
+      },
+    ],
   },
   {
     name: 'Ash-Shuara',
     surahNo: 26,
-    verses: [],
+    verses: [
+      {
+        ayahNo: 0,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_02/002000.mp3'),
+      },
+      {
+        ayahNo: 1,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026001.mp3'),
+      },
+      {
+        ayahNo: 2,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026002.mp3'),
+      },
+      {
+        ayahNo: 3,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026003.mp3'),
+      },
+      {
+        ayahNo: 4,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026004.mp3'),
+      },
+      {
+        ayahNo: 5,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026005.mp3'),
+      },
+      {
+        ayahNo: 6,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026006.mp3'),
+      },
+      {
+        ayahNo: 7,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026007.mp3'),
+      },
+      {
+        ayahNo: 8,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026008.mp3'),
+      },
+      {
+        ayahNo: 9,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026009.mp3'),
+      },
+      {
+        ayahNo: 10,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026010.mp3'),
+      },
+      {
+        ayahNo: 11,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026011.mp3'),
+      },
+      {
+        ayahNo: 12,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026012.mp3'),
+      },
+      {
+        ayahNo: 13,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026013.mp3'),
+      },
+      {
+        ayahNo: 14,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026014.mp3'),
+      },
+      {
+        ayahNo: 15,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026015.mp3'),
+      },
+      {
+        ayahNo: 16,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026016.mp3'),
+      },
+      {
+        ayahNo: 17,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026017.mp3'),
+      },
+      {
+        ayahNo: 18,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026018.mp3'),
+      },
+      {
+        ayahNo: 19,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026019.mp3'),
+      },
+      {
+        ayahNo: 20,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026020.mp3'),
+      },
+      {
+        ayahNo: 21,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026021.mp3'),
+      },
+      {
+        ayahNo: 22,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026022.mp3'),
+      },
+      {
+        ayahNo: 23,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026023.mp3'),
+      },
+      {
+        ayahNo: 24,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026024.mp3'),
+      },
+      {
+        ayahNo: 25,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026025.mp3'),
+      },
+      {
+        ayahNo: 26,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026026.mp3'),
+      },
+      {
+        ayahNo: 27,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026027.mp3'),
+      },
+      {
+        ayahNo: 28,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026028.mp3'),
+      },
+      {
+        ayahNo: 29,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026029.mp3'),
+      },
+      {
+        ayahNo: 30,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026030.mp3'),
+      },
+      {
+        ayahNo: 31,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026031.mp3'),
+      },
+      {
+        ayahNo: 32,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026032.mp3'),
+      },
+      {
+        ayahNo: 33,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026033.mp3'),
+      },
+      {
+        ayahNo: 34,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026034.mp3'),
+      },
+      {
+        ayahNo: 35,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026035.mp3'),
+      },
+      {
+        ayahNo: 36,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026036.mp3'),
+      },
+      {
+        ayahNo: 37,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026037.mp3'),
+      },
+      {
+        ayahNo: 38,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026038.mp3'),
+      },
+      {
+        ayahNo: 39,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026039.mp3'),
+      },
+      {
+        ayahNo: 40,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026040.mp3'),
+      },
+      {
+        ayahNo: 41,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026041.mp3'),
+      },
+      {
+        ayahNo: 42,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026042.mp3'),
+      },
+      {
+        ayahNo: 43,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026043.mp3'),
+      },
+      {
+        ayahNo: 44,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026044.mp3'),
+      },
+      {
+        ayahNo: 45,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026045.mp3'),
+      },
+      {
+        ayahNo: 46,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026046.mp3'),
+      },
+      {
+        ayahNo: 47,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026047.mp3'),
+      },
+      {
+        ayahNo: 48,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026048.mp3'),
+      },
+      {
+        ayahNo: 49,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026049.mp3'),
+      },
+      {
+        ayahNo: 50,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026050.mp3'),
+      },
+      {
+        ayahNo: 51,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026051.mp3'),
+      },
+      {
+        ayahNo: 52,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026052.mp3'),
+      },
+      {
+        ayahNo: 53,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026053.mp3'),
+      },
+      {
+        ayahNo: 54,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026054.mp3'),
+      },
+      {
+        ayahNo: 55,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026055.mp3'),
+      },
+      {
+        ayahNo: 56,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026056.mp3'),
+      },
+      {
+        ayahNo: 57,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026057.mp3'),
+      },
+      {
+        ayahNo: 58,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026058.mp3'),
+      },
+      {
+        ayahNo: 59,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026059.mp3'),
+      },
+      {
+        ayahNo: 60,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026060.mp3'),
+      },
+      {
+        ayahNo: 61,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026061.mp3'),
+      },
+      {
+        ayahNo: 62,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026062.mp3'),
+      },
+      {
+        ayahNo: 63,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026063.mp3'),
+      },
+      {
+        ayahNo: 64,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026064.mp3'),
+      },
+      {
+        ayahNo: 65,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026065.mp3'),
+      },
+      {
+        ayahNo: 66,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026066.mp3'),
+      },
+      {
+        ayahNo: 67,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026067.mp3'),
+      },
+      {
+        ayahNo: 68,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026068.mp3'),
+      },
+      {
+        ayahNo: 69,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026069.mp3'),
+      },
+      {
+        ayahNo: 70,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026070.mp3'),
+      },
+      {
+        ayahNo: 71,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026071.mp3'),
+      },
+      {
+        ayahNo: 72,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026072.mp3'),
+      },
+      {
+        ayahNo: 73,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026073.mp3'),
+      },
+      {
+        ayahNo: 74,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026074.mp3'),
+      },
+      {
+        ayahNo: 75,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026075.mp3'),
+      },
+      {
+        ayahNo: 76,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026076.mp3'),
+      },
+      {
+        ayahNo: 77,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026077.mp3'),
+      },
+      {
+        ayahNo: 78,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026078.mp3'),
+      },
+      {
+        ayahNo: 79,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026079.mp3'),
+      },
+      {
+        ayahNo: 80,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026080.mp3'),
+      },
+      {
+        ayahNo: 81,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026081.mp3'),
+      },
+      {
+        ayahNo: 82,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026082.mp3'),
+      },
+      {
+        ayahNo: 83,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026083.mp3'),
+      },
+      {
+        ayahNo: 84,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026084.mp3'),
+      },
+      {
+        ayahNo: 85,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026085.mp3'),
+      },
+      {
+        ayahNo: 86,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026086.mp3'),
+      },
+      {
+        ayahNo: 87,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026087.mp3'),
+      },
+      {
+        ayahNo: 88,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026088.mp3'),
+      },
+      {
+        ayahNo: 89,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026089.mp3'),
+      },
+      {
+        ayahNo: 90,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026090.mp3'),
+      },
+      {
+        ayahNo: 91,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026091.mp3'),
+      },
+      {
+        ayahNo: 92,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026092.mp3'),
+      },
+      {
+        ayahNo: 93,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026093.mp3'),
+      },
+      {
+        ayahNo: 94,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026094.mp3'),
+      },
+      {
+        ayahNo: 95,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026095.mp3'),
+      },
+      {
+        ayahNo: 96,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026096.mp3'),
+      },
+      {
+        ayahNo: 97,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026097.mp3'),
+      },
+      {
+        ayahNo: 98,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026098.mp3'),
+      },
+      {
+        ayahNo: 99,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026099.mp3'),
+      },
+      {
+        ayahNo: 100,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026100.mp3'),
+      },
+      {
+        ayahNo: 101,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026101.mp3'),
+      },
+      {
+        ayahNo: 102,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026102.mp3'),
+      },
+      {
+        ayahNo: 103,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026103.mp3'),
+      },
+      {
+        ayahNo: 104,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026104.mp3'),
+      },
+      {
+        ayahNo: 105,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026105.mp3'),
+      },
+      {
+        ayahNo: 106,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026106.mp3'),
+      },
+      {
+        ayahNo: 107,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026107.mp3'),
+      },
+      {
+        ayahNo: 108,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026108.mp3'),
+      },
+      {
+        ayahNo: 109,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026109.mp3'),
+      },
+      {
+        ayahNo: 110,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026110.mp3'),
+      },
+      {
+        ayahNo: 111,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026111.mp3'),
+      },
+      {
+        ayahNo: 112,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026112.mp3'),
+      },
+      {
+        ayahNo: 113,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026113.mp3'),
+      },
+      {
+        ayahNo: 114,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026114.mp3'),
+      },
+      {
+        ayahNo: 115,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026115.mp3'),
+      },
+      {
+        ayahNo: 116,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026116.mp3'),
+      },
+      {
+        ayahNo: 117,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026117.mp3'),
+      },
+      {
+        ayahNo: 118,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026118.mp3'),
+      },
+      {
+        ayahNo: 119,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026119.mp3'),
+      },
+      {
+        ayahNo: 120,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026120.mp3'),
+      },
+      {
+        ayahNo: 121,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026121.mp3'),
+      },
+      {
+        ayahNo: 122,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026122.mp3'),
+      },
+      {
+        ayahNo: 123,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026123.mp3'),
+      },
+      {
+        ayahNo: 124,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026124.mp3'),
+      },
+      {
+        ayahNo: 125,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026125.mp3'),
+      },
+      {
+        ayahNo: 126,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026126.mp3'),
+      },
+      {
+        ayahNo: 127,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026127.mp3'),
+      },
+      {
+        ayahNo: 128,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026128.mp3'),
+      },
+      {
+        ayahNo: 129,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026129.mp3'),
+      },
+      {
+        ayahNo: 130,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026130.mp3'),
+      },
+      {
+        ayahNo: 131,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026131.mp3'),
+      },
+      {
+        ayahNo: 132,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026132.mp3'),
+      },
+      {
+        ayahNo: 133,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026133.mp3'),
+      },
+      {
+        ayahNo: 134,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026134.mp3'),
+      },
+      {
+        ayahNo: 135,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026135.mp3'),
+      },
+      {
+        ayahNo: 136,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026136.mp3'),
+      },
+      {
+        ayahNo: 137,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026137.mp3'),
+      },
+      {
+        ayahNo: 138,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026138.mp3'),
+      },
+      {
+        ayahNo: 139,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026139.mp3'),
+      },
+      {
+        ayahNo: 140,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026140.mp3'),
+      },
+      {
+        ayahNo: 141,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026141.mp3'),
+      },
+      {
+        ayahNo: 142,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026142.mp3'),
+      },
+      {
+        ayahNo: 143,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026143.mp3'),
+      },
+      {
+        ayahNo: 144,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026144.mp3'),
+      },
+      {
+        ayahNo: 145,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026145.mp3'),
+      },
+      {
+        ayahNo: 146,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026146.mp3'),
+      },
+      {
+        ayahNo: 147,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026147.mp3'),
+      },
+      {
+        ayahNo: 148,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026148.mp3'),
+      },
+      {
+        ayahNo: 149,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026149.mp3'),
+      },
+      {
+        ayahNo: 150,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026150.mp3'),
+      },
+      {
+        ayahNo: 151,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026151.mp3'),
+      },
+      {
+        ayahNo: 152,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026152.mp3'),
+      },
+      {
+        ayahNo: 153,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026153.mp3'),
+      },
+      {
+        ayahNo: 154,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026154.mp3'),
+      },
+      {
+        ayahNo: 155,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026155.mp3'),
+      },
+      {
+        ayahNo: 156,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026156.mp3'),
+      },
+      {
+        ayahNo: 157,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026157.mp3'),
+      },
+      {
+        ayahNo: 158,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026158.mp3'),
+      },
+      {
+        ayahNo: 159,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026159.mp3'),
+      },
+      {
+        ayahNo: 160,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026160.mp3'),
+      },
+      {
+        ayahNo: 161,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026161.mp3'),
+      },
+      {
+        ayahNo: 162,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026162.mp3'),
+      },
+      {
+        ayahNo: 163,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026163.mp3'),
+      },
+      {
+        ayahNo: 164,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026164.mp3'),
+      },
+      {
+        ayahNo: 165,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026165.mp3'),
+      },
+      {
+        ayahNo: 166,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026166.mp3'),
+      },
+      {
+        ayahNo: 167,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026167.mp3'),
+      },
+      {
+        ayahNo: 168,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026168.mp3'),
+      },
+      {
+        ayahNo: 169,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026169.mp3'),
+      },
+      {
+        ayahNo: 170,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026170.mp3'),
+      },
+      {
+        ayahNo: 171,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026171.mp3'),
+      },
+      {
+        ayahNo: 172,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026172.mp3'),
+      },
+      {
+        ayahNo: 173,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026173.mp3'),
+      },
+      {
+        ayahNo: 174,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026174.mp3'),
+      },
+      {
+        ayahNo: 175,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026175.mp3'),
+      },
+      {
+        ayahNo: 176,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026176.mp3'),
+      },
+      {
+        ayahNo: 177,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026177.mp3'),
+      },
+      {
+        ayahNo: 178,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026178.mp3'),
+      },
+      {
+        ayahNo: 179,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026179.mp3'),
+      },
+      {
+        ayahNo: 180,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026180.mp3'),
+      },
+      {
+        ayahNo: 181,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026181.mp3'),
+      },
+      {
+        ayahNo: 182,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026182.mp3'),
+      },
+      {
+        ayahNo: 183,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026183.mp3'),
+      },
+      {
+        ayahNo: 184,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026184.mp3'),
+      },
+      {
+        ayahNo: 185,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026185.mp3'),
+      },
+      {
+        ayahNo: 186,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026186.mp3'),
+      },
+      {
+        ayahNo: 187,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026187.mp3'),
+      },
+      {
+        ayahNo: 188,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026188.mp3'),
+      },
+      {
+        ayahNo: 189,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026189.mp3'),
+      },
+      {
+        ayahNo: 190,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026190.mp3'),
+      },
+      {
+        ayahNo: 191,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026191.mp3'),
+      },
+      {
+        ayahNo: 192,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026192.mp3'),
+      },
+      {
+        ayahNo: 193,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026193.mp3'),
+      },
+      {
+        ayahNo: 194,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026194.mp3'),
+      },
+      {
+        ayahNo: 195,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026195.mp3'),
+      },
+      {
+        ayahNo: 196,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026196.mp3'),
+      },
+      {
+        ayahNo: 197,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026197.mp3'),
+      },
+      {
+        ayahNo: 198,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026198.mp3'),
+      },
+      {
+        ayahNo: 199,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026199.mp3'),
+      },
+      {
+        ayahNo: 200,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026200.mp3'),
+      },
+      {
+        ayahNo: 201,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026201.mp3'),
+      },
+      {
+        ayahNo: 202,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026202.mp3'),
+      },
+      {
+        ayahNo: 203,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026203.mp3'),
+      },
+      {
+        ayahNo: 204,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026204.mp3'),
+      },
+      {
+        ayahNo: 205,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026205.mp3'),
+      },
+      {
+        ayahNo: 206,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026206.mp3'),
+      },
+      {
+        ayahNo: 207,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026207.mp3'),
+      },
+      {
+        ayahNo: 208,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026208.mp3'),
+      },
+      {
+        ayahNo: 209,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026209.mp3'),
+      },
+      {
+        ayahNo: 210,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026210.mp3'),
+      },
+      {
+        ayahNo: 211,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026211.mp3'),
+      },
+      {
+        ayahNo: 212,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026212.mp3'),
+      },
+      {
+        ayahNo: 213,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026213.mp3'),
+      },
+      {
+        ayahNo: 214,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026214.mp3'),
+      },
+      {
+        ayahNo: 215,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026215.mp3'),
+      },
+      {
+        ayahNo: 216,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026216.mp3'),
+      },
+      {
+        ayahNo: 217,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026217.mp3'),
+      },
+      {
+        ayahNo: 218,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026218.mp3'),
+      },
+      {
+        ayahNo: 219,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026219.mp3'),
+      },
+      {
+        ayahNo: 220,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026220.mp3'),
+      },
+      {
+        ayahNo: 221,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026221.mp3'),
+      },
+      {
+        ayahNo: 222,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026222.mp3'),
+      },
+      {
+        ayahNo: 223,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026223.mp3'),
+      },
+      {
+        ayahNo: 224,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026224.mp3'),
+      },
+      {
+        ayahNo: 225,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026225.mp3'),
+      },
+      {
+        ayahNo: 226,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026226.mp3'),
+      },
+      {
+        ayahNo: 227,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_26/026227.mp3'),
+      },
+    ],
   },
   {
     name: 'An-Naml',
     surahNo: 27,
+    verses: [
+      {
+        ayahNo: 0,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_02/002000.mp3'),
+      },
+      {
+        ayahNo: 1,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027001.mp3'),
+      },
+      {
+        ayahNo: 2,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027002.mp3'),
+      },
+      {
+        ayahNo: 3,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027003.mp3'),
+      },
+      {
+        ayahNo: 4,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027004.mp3'),
+      },
+      {
+        ayahNo: 5,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027005.mp3'),
+      },
+      {
+        ayahNo: 6,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027006.mp3'),
+      },
+      {
+        ayahNo: 7,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027007.mp3'),
+      },
+      {
+        ayahNo: 8,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027008.mp3'),
+      },
+      {
+        ayahNo: 9,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027009.mp3'),
+      },
+      {
+        ayahNo: 10,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027010.mp3'),
+      },
+      {
+        ayahNo: 11,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027011.mp3'),
+      },
+      {
+        ayahNo: 12,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027012.mp3'),
+      },
+      {
+        ayahNo: 13,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027013.mp3'),
+      },
+      {
+        ayahNo: 14,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027014.mp3'),
+      },
+      {
+        ayahNo: 15,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027015.mp3'),
+      },
+      {
+        ayahNo: 16,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027016.mp3'),
+      },
+      {
+        ayahNo: 17,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027017.mp3'),
+      },
+      {
+        ayahNo: 18,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027018.mp3'),
+      },
+      {
+        ayahNo: 19,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027019.mp3'),
+      },
+      {
+        ayahNo: 20,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027020.mp3'),
+      },
+      {
+        ayahNo: 21,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027021.mp3'),
+      },
+      {
+        ayahNo: 22,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027022.mp3'),
+      },
+      {
+        ayahNo: 23,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027023.mp3'),
+      },
+      {
+        ayahNo: 24,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027024.mp3'),
+      },
+      {
+        ayahNo: 25,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027025.mp3'),
+      },
+      {
+        ayahNo: 26,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027026.mp3'),
+      },
+      {
+        ayahNo: 27,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027027.mp3'),
+      },
+      {
+        ayahNo: 28,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027028.mp3'),
+      },
+      {
+        ayahNo: 29,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027029.mp3'),
+      },
+      {
+        ayahNo: 30,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027030.mp3'),
+      },
+      {
+        ayahNo: 31,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027031.mp3'),
+      },
+      {
+        ayahNo: 32,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027032.mp3'),
+      },
+      {
+        ayahNo: 33,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027033.mp3'),
+      },
+      {
+        ayahNo: 34,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027034.mp3'),
+      },
+      {
+        ayahNo: 35,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027035.mp3'),
+      },
+      {
+        ayahNo: 36,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027036.mp3'),
+      },
+      {
+        ayahNo: 37,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027037.mp3'),
+      },
+      {
+        ayahNo: 38,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027038.mp3'),
+      },
+      {
+        ayahNo: 39,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027039.mp3'),
+      },
+      {
+        ayahNo: 40,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027040.mp3'),
+      },
+      {
+        ayahNo: 41,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027041.mp3'),
+      },
+      {
+        ayahNo: 42,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027042.mp3'),
+      },
+      {
+        ayahNo: 43,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027043.mp3'),
+      },
+      {
+        ayahNo: 44,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027044.mp3'),
+      },
+      {
+        ayahNo: 45,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027045.mp3'),
+      },
+      {
+        ayahNo: 46,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027046.mp3'),
+      },
+      {
+        ayahNo: 47,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027047.mp3'),
+      },
+      {
+        ayahNo: 48,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027048.mp3'),
+      },
+      {
+        ayahNo: 49,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027049.mp3'),
+      },
+      {
+        ayahNo: 50,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027050.mp3'),
+      },
+      {
+        ayahNo: 51,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027051.mp3'),
+      },
+      {
+        ayahNo: 52,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027052.mp3'),
+      },
+      {
+        ayahNo: 53,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027053.mp3'),
+      },
+      {
+        ayahNo: 54,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027054.mp3'),
+      },
+      {
+        ayahNo: 55,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027055.mp3'),
+      },
+      {
+        ayahNo: 56,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027056.mp3'),
+      },
+      {
+        ayahNo: 57,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027057.mp3'),
+      },
+      {
+        ayahNo: 58,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027058.mp3'),
+      },
+      {
+        ayahNo: 59,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027059.mp3'),
+      },
+      {
+        ayahNo: 60,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027060.mp3'),
+      },
+      {
+        ayahNo: 61,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027061.mp3'),
+      },
+      {
+        ayahNo: 62,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027062.mp3'),
+      },
+      {
+        ayahNo: 63,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027063.mp3'),
+      },
+      {
+        ayahNo: 64,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027064.mp3'),
+      },
+      {
+        ayahNo: 65,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027065.mp3'),
+      },
+      {
+        ayahNo: 66,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027066.mp3'),
+      },
+      {
+        ayahNo: 67,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027067.mp3'),
+      },
+      {
+        ayahNo: 68,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027068.mp3'),
+      },
+      {
+        ayahNo: 69,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027069.mp3'),
+      },
+      {
+        ayahNo: 70,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027070.mp3'),
+      },
+      {
+        ayahNo: 71,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027071.mp3'),
+      },
+      {
+        ayahNo: 72,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027072.mp3'),
+      },
+      {
+        ayahNo: 73,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027073.mp3'),
+      },
+      {
+        ayahNo: 74,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027074.mp3'),
+      },
+      {
+        ayahNo: 75,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027075.mp3'),
+      },
+      {
+        ayahNo: 76,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027076.mp3'),
+      },
+      {
+        ayahNo: 77,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027077.mp3'),
+      },
+      {
+        ayahNo: 78,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027078.mp3'),
+      },
+      {
+        ayahNo: 79,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027079.mp3'),
+      },
+      {
+        ayahNo: 80,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027080.mp3'),
+      },
+      {
+        ayahNo: 81,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027081.mp3'),
+      },
+      {
+        ayahNo: 82,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027082.mp3'),
+      },
+      {
+        ayahNo: 83,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027083.mp3'),
+      },
+      {
+        ayahNo: 84,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027084.mp3'),
+      },
+      {
+        ayahNo: 85,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027085.mp3'),
+      },
+      {
+        ayahNo: 86,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027086.mp3'),
+      },
+      {
+        ayahNo: 87,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027087.mp3'),
+      },
+      {
+        ayahNo: 88,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027088.mp3'),
+      },
+      {
+        ayahNo: 89,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027089.mp3'),
+      },
+      {
+        ayahNo: 90,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027090.mp3'),
+      },
+      {
+        ayahNo: 91,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027091.mp3'),
+      },
+      {
+        ayahNo: 92,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027092.mp3'),
+      },
+      {
+        ayahNo: 93,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_27/027093.mp3'),
+      },
+    ],
+  },
+  {
+    name: 'Al-Qasas',
+    surahNo: 28,
     verses: [],
   },
   {
     name: 'Al-Ankabut',
-    surahNo: 28,
+    surahNo: 29,
     verses: [],
   },
   {
@@ -10260,85 +13376,458 @@ const audioPath: Surah[] = [
   {
     name: 'Al-Jathiya',
     surahNo: 45,
-    verses: [],
+    verses: [
+      {
+        ayahNo: 0,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_02/002000.mp3'),
+      },
+      {
+        ayahNo: 1,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045001.mp3'),
+      },
+      {
+        ayahNo: 2,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045002.mp3'),
+      },
+      {
+        ayahNo: 3,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045003.mp3'),
+      },
+      {
+        ayahNo: 4,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045004.mp3'),
+      },
+      {
+        ayahNo: 5,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045005.mp3'),
+      },
+      {
+        ayahNo: 6,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045006.mp3'),
+      },
+      {
+        ayahNo: 7,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045007.mp3'),
+      },
+      {
+        ayahNo: 8,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045008.mp3'),
+      },
+      {
+        ayahNo: 9,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045009.mp3'),
+      },
+      {
+        ayahNo: 10,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045010.mp3'),
+      },
+      {
+        ayahNo: 11,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045011.mp3'),
+      },
+      {
+        ayahNo: 12,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045012.mp3'),
+      },
+      {
+        ayahNo: 13,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045013.mp3'),
+      },
+      {
+        ayahNo: 14,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045014.mp3'),
+      },
+      {
+        ayahNo: 15,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045015.mp3'),
+      },
+      {
+        ayahNo: 16,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045016.mp3'),
+      },
+      {
+        ayahNo: 17,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045017.mp3'),
+      },
+      {
+        ayahNo: 18,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045018.mp3'),
+      },
+      {
+        ayahNo: 19,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045019.mp3'),
+      },
+      {
+        ayahNo: 20,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045020.mp3'),
+      },
+      {
+        ayahNo: 21,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045021.mp3'),
+      },
+      {
+        ayahNo: 22,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045022.mp3'),
+      },
+      {
+        ayahNo: 23,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045023.mp3'),
+      },
+      {
+        ayahNo: 24,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045024.mp3'),
+      },
+      {
+        ayahNo: 25,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045025.mp3'),
+      },
+      {
+        ayahNo: 26,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045026.mp3'),
+      },
+      {
+        ayahNo: 27,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045027.mp3'),
+      },
+      {
+        ayahNo: 28,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045028.mp3'),
+      },
+      {
+        ayahNo: 29,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045029.mp3'),
+      },
+      {
+        ayahNo: 30,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045030.mp3'),
+      },
+      {
+        ayahNo: 31,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045031.mp3'),
+      },
+      {
+        ayahNo: 32,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045032.mp3'),
+      },
+      {
+        ayahNo: 33,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045033.mp3'),
+      },
+      {
+        ayahNo: 34,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045034.mp3'),
+      },
+      {
+        ayahNo: 35,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045035.mp3'),
+      },
+      {
+        ayahNo: 36,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045036.mp3'),
+      },
+      {
+        ayahNo: 37,
+        url: require('../../assets/audioData/a_rehman_sudais/surah_45/045037.mp3'),
+      },
+    ],
   },
   {
-    name: 'Al-Ahqaf',
+    name: 'Al Ahqaf',
     surahNo: 46,
     verses: [],
   },
   {
-    name: 'Az-Zariyat',
+    name: 'Muhammad',
+    surahNo: 47,
+    verses: [],
+  },
+  {
+    name: 'Al Fath',
+    surahNo: 48,
+    verses: [],
+  },
+  {
+    name: 'Al Hujurat',
+    surahNo: 49,
+    verses: [],
+  },
+  {
+    name: 'Qaf',
+    surahNo: 50,
+    verses: [],
+  },
+  {
+    name: 'Az Zariyat',
     surahNo: 51,
     verses: [],
   },
   {
-    name: 'Al-Mujadila',
+    name: 'At Tur',
+    surahNo: 52,
+    verses: [],
+  },
+  {
+    name: 'An Najm',
+    surahNo: 53,
+    verses: [],
+  },
+  {
+    name: 'Al Qamar',
+    surahNo: 54,
+    verses: [],
+  },
+  {
+    name: 'Ar Rahman',
+    surahNo: 55,
+    verses: [],
+  },
+  {
+    name: 'Al Waqiah',
+    surahNo: 56,
+    verses: [],
+  },
+  {
+    name: 'Al Hadid',
+    surahNo: 57,
+    verses: [],
+  },
+  {
+    name: 'Al Mujadila',
     surahNo: 58,
     verses: [],
   },
   {
-    name: 'Al-Mulk',
+    name: 'Al Hashr',
+    surahNo: 59,
+    verses: [],
+  },
+  {
+    name: 'Al Mumtahinah',
+    surahNo: 60,
+    verses: [],
+  },
+  {
+    name: 'As Saff',
+    surahNo: 61,
+    verses: [],
+  },
+  {
+    name: 'Al Jumuah',
+    surahNo: 62,
+    verses: [],
+  },
+  {
+    name: 'Al Munafiqun',
+    surahNo: 63,
+    verses: [],
+  },
+  {
+    name: 'At Taghabun',
+    surahNo: 64,
+    verses: [],
+  },
+  {
+    name: 'At Talaq',
+    surahNo: 65,
+    verses: [],
+  },
+  {
+    name: 'At Tahrim',
+    surahNo: 66,
+    verses: [],
+  },
+  {
+    name: 'Al Mulk',
     surahNo: 67,
     verses: [],
   },
   {
-    name: 'Al-Muzzammil',
+    name: 'Al Qalam',
+    surahNo: 68,
+    verses: [],
+  },
+  {
+    name: 'Al Haqqah',
+    surahNo: 69,
+    verses: [],
+  },
+  {
+    name: 'Al Maarij',
+    surahNo: 70,
+    verses: [],
+  },
+  {
+    name: 'Nuh',
+    surahNo: 71,
+    verses: [],
+  },
+  {
+    name: 'Al Jinn',
+    surahNo: 72,
+    verses: [],
+  },
+  {
+    name: 'Al Muzzammil',
     surahNo: 73,
     verses: [],
   },
   {
-    name: 'Al-Insan',
+    name: 'Al Muddathir',
+    surahNo: 74,
+    verses: [],
+  },
+  {
+    name: 'Al Qiyamah',
+    surahNo: 75,
+    verses: [],
+  },
+  {
+    name: 'Al Insan',
     surahNo: 76,
     verses: [],
   },
   {
-    name: 'Al-Alaq',
+    name: 'Al Mursalat',
+    surahNo: 77,
+    verses: [],
+  },
+  {
+    name: 'An Naba',
+    surahNo: 78,
+    verses: [],
+  },
+  {
+    name: 'An Naziat',
+    surahNo: 79,
+    verses: [],
+  },
+  {
+    name: 'Abasa',
+    surahNo: 80,
+    verses: [],
+  },
+  {
+    name: 'At Takwir',
+    surahNo: 81,
+    verses: [],
+  },
+  {
+    name: 'Al Infitar',
+    surahNo: 82,
+    verses: [],
+  },
+  {
+    name: 'Al Mutaffifin',
+    surahNo: 83,
+    verses: [],
+  },
+  {
+    name: 'Al Inshiqaq',
+    surahNo: 84,
+    verses: [],
+  },
+  {
+    name: 'Al Buruj',
+    surahNo: 85,
+    verses: [],
+  },
+  {
+    name: 'At Tariq',
+    surahNo: 86,
+    verses: [],
+  },
+  {
+    name: 'Al Ala',
+    surahNo: 87,
+    verses: [],
+  },
+  {
+    name: 'Al Ghashiyah',
+    surahNo: 88,
+    verses: [],
+  },
+  {
+    name: 'Al Fajr',
+    surahNo: 89,
+    verses: [],
+  },
+  {
+    name: 'Al Balad',
+    surahNo: 90,
+    verses: [],
+  },
+  {
+    name: 'Ash Shams',
+    surahNo: 91,
+    verses: [],
+  },
+  {
+    name: 'Al Lail',
+    surahNo: 92,
+    verses: [],
+  },
+  {
+    name: 'Ad Duha',
+    surahNo: 93,
+    verses: [],
+  },
+  {
+    name: 'Al Inshirah',
+    surahNo: 94,
+    verses: [],
+  },
+  {
+    name: 'At Tin',
+    surahNo: 95,
+    verses: [],
+  },
+  {
+    name: 'Al Alaq',
     surahNo: 96,
     verses: [],
   },
   {
-    name: 'Al-Qadr',
+    name: 'Al Qadr',
     surahNo: 97,
     verses: [],
   },
   {
-    name: 'Al-Bayyina',
+    name: 'Al Bayyinah',
     surahNo: 98,
     verses: [],
   },
   {
-    name: 'Az-Zalzalah',
+    name: 'Az Zalzalah',
     surahNo: 99,
     verses: [],
   },
   {
-    name: 'Al-Adiyat',
+    name: 'Al Adiyat',
     surahNo: 100,
     verses: [],
   },
   {
-    name: 'Al-Qariah',
+    name: 'Al Qariah',
     surahNo: 101,
     verses: [],
   },
   {
-    name: 'At-Takathur',
+    name: 'At Takathur',
     surahNo: 102,
     verses: [],
   },
   {
-    name: 'Al-Asr',
+    name: 'Al Asr',
     surahNo: 103,
     verses: [],
   },
   {
-    name: 'Al-Humazah',
+    name: 'Al Humazah',
     surahNo: 104,
     verses: [],
   },
   {
-    name: 'Al-Fil',
+    name: 'Al Fil',
     surahNo: 105,
     verses: [],
   },
@@ -10348,42 +13837,42 @@ const audioPath: Surah[] = [
     verses: [],
   },
   {
-    name: 'Al-Maun',
+    name: 'Al Maun',
     surahNo: 107,
     verses: [],
   },
   {
-    name: 'Al-Kawthar',
+    name: 'Al kausar',
     surahNo: 108,
     verses: [],
   },
   {
-    name: 'Al-Kafirun',
+    name: 'Al Kafirun',
     surahNo: 109,
     verses: [],
   },
   {
-    name: 'An-Nasr',
+    name: 'An Nasr',
     surahNo: 110,
     verses: [],
   },
   {
-    name: 'Al-Masad',
+    name: 'Al lahab',
     surahNo: 111,
     verses: [],
   },
   {
-    name: 'Al-Ikhlas',
+    name: 'Al Ikhlas',
     surahNo: 112,
     verses: [],
   },
   {
-    name: 'Al-Falaq',
+    name: 'Al Falaq',
     surahNo: 113,
     verses: [],
   },
   {
-    name: 'An-Nas',
+    name: 'An Nas',
     surahNo: 114,
     verses: [],
   },

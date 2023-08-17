@@ -18,6 +18,17 @@ import surah17 from '../surahText/surah_17.ts';
 import surah18 from '../surahText/surah_18.ts';
 import surah19 from '../surahText/surah_19.ts';
 import surah20 from '../surahText/surah_20.ts';
+import surah21 from '../surahText/surah_21.ts';
+import surah22 from '../surahText/surah_22.ts';
+import surah23 from '../surahText/surah_23.ts';
+import surah24 from '../surahText/surah_24.ts';
+import surah25 from '../surahText/surah_25.ts';
+import surah26 from '../surahText/surah_26.ts';
+import surah27 from '../surahText/surah_27.ts';
+import surah43 from '../surahText/surah_43.ts';
+import surah44 from '../surahText/surah_44.ts';
+import surah45 from '../surahText/surah_45.ts';
+import surah46 from '../surahText/surah_46.ts';
 
 const getSurahText = (surah: number) => {
   switch (surah) {
@@ -61,20 +72,20 @@ const getSurahText = (surah: number) => {
       return surah19;
     case 20:
       return surah20;
-    // case 21:
-    //   return surah21;
-    // case 22:
-    //   return surah22;
-    // case 23:
-    //   return surah23;
-    // case 24:
-    //   return surah24;
-    // case 25:
-    //   return surah25;
-    // case 26:
-    //   return surah26;
-    // case 27:
-    //   return surah27;
+    case 21:
+      return surah21;
+    case 22:
+      return surah22;
+    case 23:
+      return surah23;
+    case 24:
+      return surah24;
+    case 25:
+      return surah25;
+    case 26:
+      return surah26;
+    case 27:
+      return surah27;
     // case 28:
     //   return surah28;
     // case 29:
@@ -105,14 +116,14 @@ const getSurahText = (surah: number) => {
     //   return surah41;
     // case 42:
     //   return surah42;
-    // case 43:
-    //   return surah43;
-    // case 44:
-    //   return surah44;
-    // case 45:
-    //   return surah45;
-    // case 46:
-    //   return surah46;
+    case 43:
+      return surah43;
+    case 44:
+      return surah44;
+    case 45:
+      return surah45;
+    case 46:
+      return surah46;
     // case 47:
     //   return surah47;
     // case 48:

@@ -32,7 +32,6 @@ function AudioScreen() {
   const [currentVerse, setCurrentVerse] = useState(1);
   const verses = useMemo(() => audioPath[surahNo - 1]?.verses || [], [surahNo]);
   const ayahNo = audioPath[surahNo - 1]?.verses[currentVerse - 1]?.ayahNo;
-
   const handleBackPress = useCallback(() => {
     navigation.navigate('Home' as never);
     TrackPlayer.reset();
