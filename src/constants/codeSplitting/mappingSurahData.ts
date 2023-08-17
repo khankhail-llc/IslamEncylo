@@ -8,7 +8,22 @@ import surah07 from '../surahText/surah_07.ts';
 import surah08 from '../surahText/surah_08.ts';
 import surah09 from '../surahText/surah_09.ts';
 import surah10 from '../surahText/surah_10.ts';
+import surah100 from '../surahText/surah_100.ts';
+import surah101 from '../surahText/surah_101.ts';
+import surah102 from '../surahText/surah_102.ts';
+import surah103 from '../surahText/surah_103.ts';
+import surah104 from '../surahText/surah_104.ts';
+import surah105 from '../surahText/surah_105.ts';
+import surah106 from '../surahText/surah_106.ts';
+import surah107 from '../surahText/surah_107.ts';
+import surah108 from '../surahText/surah_108.ts';
+import surah109 from '../surahText/surah_109.ts';
 import surah11 from '../surahText/surah_11.ts';
+import surah110 from '../surahText/surah_110.ts';
+import surah111 from '../surahText/surah_111.ts';
+import surah112 from '../surahText/surah_112.ts';
+import surah113 from '../surahText/surah_113.ts';
+import surah114 from '../surahText/surah_114.ts';
 import surah12 from '../surahText/surah_12.ts';
 import surah13 from '../surahText/surah_13.ts';
 import surah14 from '../surahText/surah_14.ts';
@@ -29,6 +44,59 @@ import surah43 from '../surahText/surah_43.ts';
 import surah44 from '../surahText/surah_44.ts';
 import surah45 from '../surahText/surah_45.ts';
 import surah46 from '../surahText/surah_46.ts';
+import surah47 from '../surahText/surah_47.ts';
+import surah48 from '../surahText/surah_48.ts';
+import surah49 from '../surahText/surah_49.ts';
+import surah50 from '../surahText/surah_50.ts';
+import surah51 from '../surahText/surah_51.ts';
+import surah52 from '../surahText/surah_52.ts';
+import surah53 from '../surahText/surah_53.ts';
+import surah54 from '../surahText/surah_54.ts';
+import surah55 from '../surahText/surah_55.ts';
+import surah56 from '../surahText/surah_56.ts';
+import surah57 from '../surahText/surah_57.ts';
+import surah58 from '../surahText/surah_58.ts';
+import surah59 from '../surahText/surah_59.ts';
+import surah60 from '../surahText/surah_60.ts';
+import surah61 from '../surahText/surah_61.ts';
+import surah62 from '../surahText/surah_62.ts';
+import surah63 from '../surahText/surah_63.ts';
+import surah64 from '../surahText/surah_64.ts';
+import surah65 from '../surahText/surah_65.ts';
+import surah66 from '../surahText/surah_66.ts';
+import surah67 from '../surahText/surah_67.ts';
+import surah68 from '../surahText/surah_68.ts';
+import surah69 from '../surahText/surah_69.ts';
+import surah70 from '../surahText/surah_70.ts';
+import surah71 from '../surahText/surah_71.ts';
+import surah72 from '../surahText/surah_72.ts';
+import surah73 from '../surahText/surah_73.ts';
+import surah74 from '../surahText/surah_74.ts';
+import surah75 from '../surahText/surah_75.ts';
+import surah76 from '../surahText/surah_76.ts';
+import surah77 from '../surahText/surah_77.ts';
+import surah78 from '../surahText/surah_78.ts';
+import surah79 from '../surahText/surah_79.ts';
+import surah80 from '../surahText/surah_80.ts';
+import surah81 from '../surahText/surah_81.ts';
+import surah82 from '../surahText/surah_82.ts';
+import surah83 from '../surahText/surah_83.ts';
+import surah84 from '../surahText/surah_84.ts';
+import surah85 from '../surahText/surah_85.ts';
+import surah86 from '../surahText/surah_86.ts';
+import surah87 from '../surahText/surah_87.ts';
+import surah88 from '../surahText/surah_88.ts';
+import surah89 from '../surahText/surah_89.ts';
+import surah90 from '../surahText/surah_90.ts';
+import surah91 from '../surahText/surah_91.ts';
+import surah92 from '../surahText/surah_92.ts';
+import surah93 from '../surahText/surah_93.ts';
+import surah94 from '../surahText/surah_94.ts';
+import surah95 from '../surahText/surah_95.ts';
+import surah96 from '../surahText/surah_96.ts';
+import surah97 from '../surahText/surah_97.ts';
+import surah98 from '../surahText/surah_98.ts';
+import surah99 from '../surahText/surah_99.ts';
 
 const getSurahText = (surah: number) => {
   switch (surah) {
@@ -124,142 +192,142 @@ const getSurahText = (surah: number) => {
       return surah45;
     case 46:
       return surah46;
-    // case 47:
-    //   return surah47;
-    // case 48:
-    //   return surah48;
-    // case 49:
-    //   return surah49;
-    // case 50:
-    //   return surah50;
-    // case 51:
-    //   return surah51;
-    // case 52:
-    //   return surah52;
-    // case 53:
-    //   return surah53;
-    // case 54:
-    //   return surah54;
-    // case 55:
-    //   return surah55;
-    // case 56:
-    //   return surah56;
-    // case 57:
-    //   return surah57;
-    // case 58:
-    //   return surah58;
-    // case 59:
-    //   return surah59;
-    // case 60:
-    //   return surah60;
-    // case 61:
-    //   return surah61;
-    // case 62:
-    //   return surah62;
-    // case 63:
-    //   return surah63;
-    // case 64:
-    //   return surah64;
-    // case 65:
-    //   return surah65;
-    // case 66:
-    //   return surah66;
-    // case 67:
-    //   return surah67;
-    // case 68:
-    //   return surah68;
-    // case 69:
-    //   return surah69;
-    // case 70:
-    //   return surah70;
-    // case 71:
-    //   return surah71;
-    // case 72:
-    //   return surah72;
-    // case 73:
-    //   return surah73;
-    // case 74:
-    //   return surah74;
-    // case 75:
-    //   return surah75;
-    // case 76:
-    //   return surah76;
-    // case 77:
-    //   return surah77;
-    // case 78:
-    //   return surah78;
-    // case 79:
-    //   return surah79;
-    // case 80:
-    //   return surah80;
-    // case 81:
-    //   return surah81;
-    // case 82:
-    //   return surah82;
-    // case 83:
-    //   return surah83;
-    // case 84:
-    //   return surah84;
-    // case 85:
-    //   return surah85;
-    // case 86:
-    //   return surah86;
-    // case 87:
-    //   return surah87;
-    // case 88:
-    //   return surah88;
-    // case 89:
-    //   return surah89;
-    // case 90:
-    //   return surah90;
-    // case 91:
-    //   return surah91;
-    // case 92:
-    //   return surah92;
-    // case 93:
-    //   return surah93;
-    // case 94:
-    //   return surah94;
-    // case 95:
-    //   return surah95;
-    // case 96:
-    //   return surah96;
-    // case 97:
-    //   return surah97;
-    // case 98:
-    //   return surah98;
-    // case 99:
-    //   return surah99;
-    // case 100:
-    //   return surah100;
-    // case 101:
-    //   return surah101;
-    // case 102:
-    //   return surah102;
-    // case 103:
-    //   return surah103;
-    // case 104:
-    //   return surah104;
-    // case 105:
-    //   return surah105;
-    // case 106:
-    //   return surah106;
-    // case 107:
-    //   return surah107;
-    // case 108:
-    //   return surah108;
-    // case 109:
-    //   return surah109;
-    // case 110:
-    //   return surah110;
-    // case 111:
-    //   return surah111;
-    // case 112:
-    //   return surah112;
-    // case 113:
-    //   return surah113;
-    // case 114:
-    //   return surah114;
+    case 47:
+      return surah47;
+    case 48:
+      return surah48;
+    case 49:
+      return surah49;
+    case 50:
+      return surah50;
+    case 51:
+      return surah51;
+    case 52:
+      return surah52;
+    case 53:
+      return surah53;
+    case 54:
+      return surah54;
+    case 55:
+      return surah55;
+    case 56:
+      return surah56;
+    case 57:
+      return surah57;
+    case 58:
+      return surah58;
+    case 59:
+      return surah59;
+    case 60:
+      return surah60;
+    case 61:
+      return surah61;
+    case 62:
+      return surah62;
+    case 63:
+      return surah63;
+    case 64:
+      return surah64;
+    case 65:
+      return surah65;
+    case 66:
+      return surah66;
+    case 67:
+      return surah67;
+    case 68:
+      return surah68;
+    case 69:
+      return surah69;
+    case 70:
+      return surah70;
+    case 71:
+      return surah71;
+    case 72:
+      return surah72;
+    case 73:
+      return surah73;
+    case 74:
+      return surah74;
+    case 75:
+      return surah75;
+    case 76:
+      return surah76;
+    case 77:
+      return surah77;
+    case 78:
+      return surah78;
+    case 79:
+      return surah79;
+    case 80:
+      return surah80;
+    case 81:
+      return surah81;
+    case 82:
+      return surah82;
+    case 83:
+      return surah83;
+    case 84:
+      return surah84;
+    case 85:
+      return surah85;
+    case 86:
+      return surah86;
+    case 87:
+      return surah87;
+    case 88:
+      return surah88;
+    case 89:
+      return surah89;
+    case 90:
+      return surah90;
+    case 91:
+      return surah91;
+    case 92:
+      return surah92;
+    case 93:
+      return surah93;
+    case 94:
+      return surah94;
+    case 95:
+      return surah95;
+    case 96:
+      return surah96;
+    case 97:
+      return surah97;
+    case 98:
+      return surah98;
+    case 99:
+      return surah99;
+    case 100:
+      return surah100;
+    case 101:
+      return surah101;
+    case 102:
+      return surah102;
+    case 103:
+      return surah103;
+    case 104:
+      return surah104;
+    case 105:
+      return surah105;
+    case 106:
+      return surah106;
+    case 107:
+      return surah107;
+    case 108:
+      return surah108;
+    case 109:
+      return surah109;
+    case 110:
+      return surah110;
+    case 111:
+      return surah111;
+    case 112:
+      return surah112;
+    case 113:
+      return surah113;
+    case 114:
+      return surah114;
     default:
       throw new Error(`Surah not found check Mapping Data: ${surah}`);
   }

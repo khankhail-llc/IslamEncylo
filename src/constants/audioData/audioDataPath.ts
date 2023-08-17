@@ -9,6 +9,7 @@ type Surah = {
   surahNo: number;
   verses: Ayah[];
 };
+
 const audioPath: Surah[] = [
   {
     name: 'Al-Fatiha',
