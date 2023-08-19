@@ -40,6 +40,21 @@ import surah24 from '../surahText/surah_24.ts';
 import surah25 from '../surahText/surah_25.ts';
 import surah26 from '../surahText/surah_26.ts';
 import surah27 from '../surahText/surah_27.ts';
+import surah28 from '../surahText/surah_28.ts';
+import surah29 from '../surahText/surah_29.ts';
+import surah30 from '../surahText/surah_30.ts';
+import surah31 from '../surahText/surah_31.ts';
+import surah32 from '../surahText/surah_32.ts';
+import surah33 from '../surahText/surah_33.ts';
+import surah34 from '../surahText/surah_34.ts';
+import surah35 from '../surahText/surah_35.ts';
+import surah36 from '../surahText/surah_36.ts';
+import surah37 from '../surahText/surah_37.ts';
+import surah38 from '../surahText/surah_38.ts';
+import surah39 from '../surahText/surah_39.ts';
+import surah40 from '../surahText/surah_40.ts';
+import surah41 from '../surahText/surah_41.ts';
+import surah42 from '../surahText/surah_42.ts';
 import surah43 from '../surahText/surah_43.ts';
 import surah44 from '../surahText/surah_44.ts';
 import surah45 from '../surahText/surah_45.ts';
@@ -154,36 +169,36 @@ const getSurahText = (surah: number) => {
       return surah26;
     case 27:
       return surah27;
-    // case 28:
-    //   return surah28;
-    // case 29:
-    //   return surah29;
-    // case 30:
-    //   return surah30;
-    // case 31:
-    //   return surah31;
-    // case 32:
-    //   return surah32;
-    // case 33:
-    //   return surah33;
-    // case 34:
-    //   return surah34;
-    // case 35:
-    //   return surah35;
-    // case 36:
-    //   return surah36;
-    // case 37:
-    //   return surah37;
-    // case 38:
-    //   return surah38;
-    // case 39:
-    //   return surah39;
-    // case 40:
-    //   return surah40;
-    // case 41:
-    //   return surah41;
-    // case 42:
-    //   return surah42;
+    case 28:
+      return surah28;
+    case 29:
+      return surah29;
+    case 30:
+      return surah30;
+    case 31:
+      return surah31;
+    case 32:
+      return surah32;
+    case 33:
+      return surah33;
+    case 34:
+      return surah34;
+    case 35:
+      return surah35;
+    case 36:
+      return surah36;
+    case 37:
+      return surah37;
+    case 38:
+      return surah38;
+    case 39:
+      return surah39;
+    case 40:
+      return surah40;
+    case 41:
+      return surah41;
+    case 42:
+      return surah42;
     case 43:
       return surah43;
     case 44:

@@ -33,26 +33,40 @@ function AudioScreen() {
   const verses = useMemo(() => audioPath[surahNo - 1]?.verses || [], [surahNo]);
   const ayahNo = audioPath[surahNo - 1]?.verses[currentVerse - 1]?.ayahNo;
   const handleBackPress = useCallback(() => {
-    navigation.navigate('Home' as never);
+    navigation.goBack();
     TrackPlayer.reset();
   }, [navigation]);
 
-  // Memoized function to set up the player
-  const initPlayer = useCallback(async () => {
-    await TrackPlayer.reset();
-    await TrackPlayer.add(verses);
-  }, [verses]);
-
-  const setupAndAddPlayer = async () => {
-    await setupPlayer().then(async () => {
-      await initPlayer();
-    });
-  };
+  const handlePlayPress = useCallback(async () => {
+    // Check if the player is initialized before calling play/pause
+    if (isPlay) {
+      await TrackPlayer.pause();
+    } else {
+      await TrackPlayer.play();
+    }
+    setIsPlay((prevState) => !prevState);
+  }, [isPlay]);
 
   // Effect to run the player setup
   useEffect(() => {
+    async function setupAndAddPlayer() {
+      try {
+        await setupPlayer(); // Initialize the player
+
+        await TrackPlayer.reset(); // Reset the player
+
+        // Assuming verses is an array of track objects
+        await TrackPlayer.add(verses); // Add tracks after initialization
+        handlePlayPress();
+        // Once tracks are added, you can call other methods like handlePlayPress()
+      } catch (error) {
+        console.error('Error during setup and adding tracks:', error);
+      }
+    }
+
     setupAndAddPlayer();
   }, []);
+
 
   useEffect(() => {
     let isMounted = true;
@@ -73,16 +87,6 @@ function AudioScreen() {
       isMounted = false;
     };
   }, [currentPosition, currentVerse]);
-
-  const handlePlayPress = useCallback(async () => {
-    // Check if the player is initialized before calling play/pause
-    if (isPlay) {
-      await TrackPlayer.pause();
-    } else {
-      await TrackPlayer.play();
-    }
-    setIsPlay((prevState) => !prevState);
-  }, [isPlay]);
 
   const handleSkipBackward = useCallback(async () => {
     // Check if the player is initialized before skipping backward
