@@ -51,14 +51,10 @@ function AudioScreen() {
   useEffect(() => {
     async function setupAndAddPlayer() {
       try {
-        await setupPlayer(); // Initialize the player
-
-        await TrackPlayer.reset(); // Reset the player
-
-        // Assuming verses is an array of track objects
-        await TrackPlayer.add(verses); // Add tracks after initialization
+        await setupPlayer();
+        await TrackPlayer.reset();
+        await TrackPlayer.add(verses);
         handlePlayPress();
-        // Once tracks are added, you can call other methods like handlePlayPress()
       } catch (error) {
         console.error('Error during setup and adding tracks:', error);
       }
@@ -66,7 +62,6 @@ function AudioScreen() {
 
     setupAndAddPlayer();
   }, []);
-
 
   useEffect(() => {
     let isMounted = true;
@@ -89,12 +84,10 @@ function AudioScreen() {
   }, [currentPosition, currentVerse]);
 
   const handleSkipBackward = useCallback(async () => {
-    // Check if the player is initialized before skipping backward
     await TrackPlayer.skipToPrevious();
   }, []);
 
   const handleSkipForward = useCallback(async () => {
-    // Check if the player is initialized before skipping forward
     await TrackPlayer.skipToNext();
   }, []);
 
@@ -137,12 +130,10 @@ function AudioScreen() {
                 {getSurahText(surahNo)?.map((wordObj) => (
                   <React.Fragment key={wordObj.id}>
                     {ayahNo === wordObj.verseNumber && (
-                      // for ayah highlighting add this in following text
-                      // (style={ayahNo === wordObj.verseNumber ? style.highlightedVerse : null})
-                      <Text>
-                        {wordObj.ayah}
-                        {' '}
-                      </Text>
+                    <Text>
+                      {wordObj.ayah}
+                      {' '}
+                    </Text>
                     )}
                   </React.Fragment>
                 ))}
