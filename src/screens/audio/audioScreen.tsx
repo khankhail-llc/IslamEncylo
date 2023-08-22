@@ -1,7 +1,7 @@
 import Slider from '@react-native-community/slider';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import React, {
-  useCallback, useEffect, useMemo, useState,
+  useCallback, useEffect, useMemo, useRef, useState,
 } from 'react';
 import {
   SafeAreaView, Text, View, ImageBackground, ScrollView,
@@ -22,21 +22,23 @@ import styles from './style.ts';
 
 function AudioScreen() {
   const navigation = useNavigation();
-  const route = useRoute();
-  const { title, surahNo } = route.params;
+  const {
+    params: { title, surahNo },
+  } = useRoute();
   const style = useThemedStyles(styles);
   const theme = useTheme();
   const [isPlay, setIsPlay] = useState(false);
   const [currentPosition, setCurrentPosition] = useState(0);
   const [duration, setDuration] = useState(0);
   const [currentVerse, setCurrentVerse] = useState(1);
+  const [scrollY, setScrollY] = useState(-10);
+  const scrollViewRef = useRef(null);
   const verses = useMemo(() => audioPath[surahNo - 1]?.verses || [], [surahNo]);
   const ayahNo = audioPath[surahNo - 1]?.verses[currentVerse - 1]?.ayahNo;
   const handleBackPress = useCallback(() => {
     navigation.goBack();
     TrackPlayer.reset();
   }, [navigation]);
-
   const handlePlayPress = useCallback(async () => {
     // Check if the player is initialized before calling play/pause
     if (isPlay) {
@@ -46,6 +48,24 @@ function AudioScreen() {
     }
     setIsPlay((prevState) => !prevState);
   }, [isPlay]);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (scrollViewRef.current && isPlay) {
+        const scrollIncrement = 95; // Adjust the scrolling increment as needed
+        scrollViewRef.current.scrollTo({
+          y: scrollY + scrollIncrement,
+          animated: true,
+          duration: 4000,
+        });
+        setScrollY((prevScrollY) => prevScrollY + scrollIncrement);
+      }
+    }, 9000); // Adjust the interval duration as needed
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, [scrollY, isPlay]);
 
   // Effect to run the player setup
   useEffect(() => {
@@ -85,6 +105,7 @@ function AudioScreen() {
 
   const handleSkipBackward = useCallback(async () => {
     await TrackPlayer.skipToPrevious();
+    setScrollY(-10);
   }, []);
 
   const handleSkipForward = useCallback(async () => {
@@ -125,7 +146,10 @@ function AudioScreen() {
       <ImageBackground source={BackGroundImage} style={style.backgroundImage}>
         <View style={style.bannerView}>
           <View>
-            <ScrollView>
+            <ScrollView
+              ref={scrollViewRef}
+              onScroll={(event) => setScrollY(event.nativeEvent.contentOffset.y)}
+            >
               <Text style={style.surah}>
                 {getSurahText(surahNo)?.map((wordObj) => (
                   <React.Fragment key={wordObj.id}>
