@@ -35,6 +35,7 @@ function AudioScreen() {
   const scrollViewRef = useRef(null);
   const verses = useMemo(() => audioPath[surahNo - 1]?.verses || [], [surahNo]);
   const ayahNo = audioPath[surahNo - 1]?.verses[currentVerse - 1]?.ayahNo;
+  console.log(scrollY);
   const handleBackPress = useCallback(() => {
     navigation.goBack();
     TrackPlayer.reset();
@@ -50,18 +51,21 @@ function AudioScreen() {
   }, [isPlay]);
 
   useEffect(() => {
+    setScrollY(-10);
+  }, [currentVerse]);
+
+  useEffect(() => {
     const interval = setInterval(() => {
       if (scrollViewRef.current && isPlay) {
         const scrollIncrement = 95; // Adjust the scrolling increment as needed
         scrollViewRef.current.scrollTo({
           y: scrollY + scrollIncrement,
           animated: true,
-          duration: 4000,
+          // duration: 3000,
         });
         setScrollY((prevScrollY) => prevScrollY + scrollIncrement);
       }
-    }, 9000); // Adjust the interval duration as needed
-
+    }, 10000); // Adjust the interval duration as needed
     return () => {
       clearInterval(interval);
     };
@@ -110,6 +114,7 @@ function AudioScreen() {
 
   const handleSkipForward = useCallback(async () => {
     await TrackPlayer.skipToNext();
+    setScrollY(-10);
   }, []);
 
   const formatTime = (seconds: number) => {
@@ -120,7 +125,9 @@ function AudioScreen() {
 
   const getCurrentVerse = async () => {
     const currentTrack = await TrackPlayer.getCurrentTrack();
-    const currentData = getSurahText(surahNo)?.find((data) => data.verseNumber === currentTrack);
+    const currentData = getSurahText(surahNo)?.find(
+      (data) => data.verseNumber === currentTrack,
+    );
 
     if (currentData) {
       setCurrentVerse(currentData.verseNumber + 1);
