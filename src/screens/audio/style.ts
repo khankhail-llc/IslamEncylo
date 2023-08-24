@@ -20,7 +20,7 @@ const styles = (theme: Theme) => StyleSheet.create({
   headerStyle: {
     alignItems: 'center',
     alignSelf: 'center',
-    backgroundColor: theme.colors.SEARCHBARCONTAINER,
+    // backgroundColor: theme.colors.SEARCHBARCONTAINER,
     borderRadius: 8,
     flexDirection: 'row',
     justifyContent: 'space-between',
@@ -35,11 +35,8 @@ const styles = (theme: Theme) => StyleSheet.create({
     fontWeight: '500',
     marginRight: 18,
   },
-  // highlightedVerse: {
-  //   color: 'red',
-  // },
   outerContainer: {
-    backgroundColor: theme.colors.THEME,
+    // backgroundColor: theme.colors.THEME,
     flex: 1,
   },
   player: {

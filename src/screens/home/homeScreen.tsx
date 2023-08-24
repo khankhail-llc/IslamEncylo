@@ -4,6 +4,7 @@ import {
 } from 'react-native';
 
 import BackGroundImage from '../../assets/images/coverImages/launchScreen.jpeg';
+import BackGroundImageL from '../../assets/images/coverImages/launchScreenL.png';
 import SearchBar from '../../components/search/searchBar.tsx';
 import useTheme from '../../theming/useTheme.ts';
 import useThemedStyles from '../../theming/useThemedStyles.ts';
@@ -23,9 +24,10 @@ function HomeScreen() {
   };
 
   const statusBarStyle = theme.colors.STATUSBAR as StatusBarStyle;
+  const backgroundImage = theme.isLightTheme === true ? BackGroundImageL : BackGroundImage;
 
   return (
-    <ImageBackground source={BackGroundImage} style={style.backgroundImage}>
+    <ImageBackground source={backgroundImage} style={style.backgroundImage}>
       <SafeAreaView style={style.mainContainer}>
         <StatusBar barStyle={statusBarStyle} />
         <Header />

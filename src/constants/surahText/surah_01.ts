@@ -1,4 +1,10 @@
-const surah01 = [
+export interface VerseData {
+  id: string;
+  verseNumber: number;
+  ayah: string;
+}
+
+const surah01: VerseData[] = [
   {
     id: '01_00',
     verseNumber: 0,

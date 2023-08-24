@@ -11,9 +11,12 @@ import AntDesign from 'react-native-vector-icons/AntDesign';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
-import BackGroundImage from '../../assets/images/borderImage/border.png';
+import BorderImage from '../../assets/images/borderImage/border.png';
+import BackGroundImageD from '../../assets/images/coverImages/launchScreen.jpeg';
+import BackGroundImageL from '../../assets/images/coverImages/launchScreenL.png';
 import audioPath from '../../constants/audioData/audioDataPath.ts';
 import getSurahText from '../../constants/codeSplitting/mappingSurahData.ts';
+import { VerseData } from '../../constants/surahText/surah_01.ts';
 import useTheme from '../../theming/useTheme.ts';
 import useThemedStyles from '../../theming/useThemedStyles.ts';
 import { setupPlayer } from '../../utils/trackPlayerServices';
@@ -35,13 +38,11 @@ function AudioScreen() {
   const scrollViewRef = useRef(null);
   const verses = useMemo(() => audioPath[surahNo - 1]?.verses || [], [surahNo]);
   const ayahNo = audioPath[surahNo - 1]?.verses[currentVerse - 1]?.ayahNo;
-  console.log(scrollY);
   const handleBackPress = useCallback(() => {
     navigation.goBack();
     TrackPlayer.reset();
   }, [navigation]);
   const handlePlayPress = useCallback(async () => {
-    // Check if the player is initialized before calling play/pause
     if (isPlay) {
       await TrackPlayer.pause();
     } else {
@@ -50,46 +51,31 @@ function AudioScreen() {
     setIsPlay((prevState) => !prevState);
   }, [isPlay]);
 
-  useEffect(() => {
-    setScrollY(-10);
-  }, [currentVerse]);
+  const initPlayer = useCallback(async () => {
+    console.log('initPlayer');
+    await TrackPlayer.reset();
+    await TrackPlayer.add(verses);
+    handlePlayPress();
+  }, [handlePlayPress, verses]);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      if (scrollViewRef.current && isPlay) {
-        const scrollIncrement = 95; // Adjust the scrolling increment as needed
-        scrollViewRef.current.scrollTo({
-          y: scrollY + scrollIncrement,
-          animated: true,
-          // duration: 3000,
-        });
-        setScrollY((prevScrollY) => prevScrollY + scrollIncrement);
-      }
-    }, 10000); // Adjust the interval duration as needed
-    return () => {
-      clearInterval(interval);
-    };
-  }, [scrollY, isPlay]);
-
-  // Effect to run the player setup
-  useEffect(() => {
-    async function setupAndAddPlayer() {
-      try {
-        await setupPlayer();
-        await TrackPlayer.reset();
-        await TrackPlayer.add(verses);
-        handlePlayPress();
-      } catch (error) {
-        console.error('Error during setup and adding tracks:', error);
-      }
+  const setupAndAddPlayer = async () => {
+    const isPlayerSetup = await setupPlayer();
+    console.log('2nd. setupPlayer audioplayer');
+    if (isPlayerSetup) {
+      initPlayer();
     }
+  };
 
+  useEffect(() => {
     setupAndAddPlayer();
+
+    return () => {
+      TrackPlayer.reset();
+    };
   }, []);
 
   useEffect(() => {
     let isMounted = true;
-
     const updatePosition = async () => {
       const newPosition = await TrackPlayer.getPosition();
       const newDuration = await TrackPlayer.getDuration();
@@ -105,7 +91,27 @@ function AudioScreen() {
     return () => {
       isMounted = false;
     };
-  }, [currentPosition, currentVerse]);
+  }, [currentPosition, currentVerse, handlePlayPress]);
+
+  useEffect(() => {
+    setScrollY(-10);
+  }, [currentVerse]);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (scrollViewRef.current && isPlay) {
+        const scrollIncrement = 95;
+        scrollViewRef.current.scrollTo({
+          y: scrollY + scrollIncrement,
+          animated: true,
+        });
+        setScrollY((prevScrollY) => prevScrollY + scrollIncrement);
+      }
+    }, 12000);
+    return () => {
+      clearInterval(interval);
+    };
+  }, [scrollY, isPlay]);
 
   const handleSkipBackward = useCallback(async () => {
     await TrackPlayer.skipToPrevious();
@@ -126,7 +132,7 @@ function AudioScreen() {
   const getCurrentVerse = async () => {
     const currentTrack = await TrackPlayer.getCurrentTrack();
     const currentData = getSurahText(surahNo)?.find(
-      (data) => data.verseNumber === currentTrack,
+      (data: VerseData) => data.verseNumber === currentTrack,
     );
 
     if (currentData) {
@@ -137,80 +143,83 @@ function AudioScreen() {
   useEffect(() => {
     getCurrentVerse();
   });
+  const backgroundImage = theme.isLightTheme === true ? BackGroundImageL : BackGroundImageD;
 
   return (
-    <SafeAreaView style={style.outerContainer}>
-      <View style={style.headerStyle}>
-        <Ionicons
-          name="arrow-back"
-          size={theme.typography.size.L}
-          color={theme.colors.SEARCHBAR}
-          onPress={handleBackPress}
-        />
-        <Text style={style.headerText}>{title}</Text>
-        <View />
-      </View>
-      <ImageBackground source={BackGroundImage} style={style.backgroundImage}>
-        <View style={style.bannerView}>
-          <View>
-            <ScrollView
-              ref={scrollViewRef}
-              onScroll={(event) => setScrollY(event.nativeEvent.contentOffset.y)}
-            >
-              <Text style={style.surah}>
-                {getSurahText(surahNo)?.map((wordObj) => (
-                  <React.Fragment key={wordObj.id}>
-                    {ayahNo === wordObj.verseNumber && (
-                    <Text>
-                      {wordObj.ayah}
-                      {' '}
-                    </Text>
-                    )}
-                  </React.Fragment>
-                ))}
-              </Text>
-            </ScrollView>
+    <ImageBackground source={backgroundImage} style={style.backgroundImage}>
+      <SafeAreaView style={style.outerContainer}>
+        <View style={style.headerStyle}>
+          <Ionicons
+            name="arrow-back"
+            size={theme.typography.size.L}
+            color={theme.colors.SEARCHBAR}
+            onPress={handleBackPress}
+          />
+          <Text style={style.headerText}>{title}</Text>
+          <View />
+        </View>
+        <ImageBackground source={BorderImage} style={style.backgroundImage}>
+          <View style={style.bannerView}>
+            <View>
+              <ScrollView
+                ref={scrollViewRef}
+                onScroll={(event) => setScrollY(event.nativeEvent.contentOffset.y)}
+              >
+                <Text style={style.surah}>
+                  {getSurahText(surahNo)?.map((wordObj) => (
+                    <React.Fragment key={wordObj.id}>
+                      {ayahNo === wordObj.verseNumber && (
+                      <Text>
+                        {wordObj.ayah}
+                        {' '}
+                      </Text>
+                      )}
+                    </React.Fragment>
+                  ))}
+                </Text>
+              </ScrollView>
+            </View>
+          </View>
+        </ImageBackground>
+
+        <View style={style.sliderView}>
+          <Slider
+            style={style.sliderStyle}
+            value={currentPosition}
+            minimumValue={0}
+            maximumValue={duration}
+            onValueChange={(value) => TrackPlayer.seekTo(value)}
+            thumbTintColor={theme.colors.SEARCHBAR}
+            minimumTrackTintColor={theme.colors.SEARCHBAR}
+            maximumTrackTintColor={theme.colors.TEXT_SECONDARY}
+          />
+          <View style={style.timerContainer}>
+            <Text style={style.timerStyle}>{formatTime(currentPosition)}</Text>
+            <Text style={style.timerStyle}>{formatTime(duration)}</Text>
           </View>
         </View>
-      </ImageBackground>
-
-      <View style={style.sliderView}>
-        <Slider
-          style={style.sliderStyle}
-          value={currentPosition}
-          minimumValue={0}
-          maximumValue={duration}
-          onValueChange={(value) => TrackPlayer.seekTo(value)}
-          thumbTintColor={theme.colors.SEARCHBAR}
-          minimumTrackTintColor={theme.colors.SEARCHBAR}
-          maximumTrackTintColor={theme.colors.TEXT_SECONDARY}
-        />
-        <View style={style.timerContainer}>
-          <Text style={style.timerStyle}>{formatTime(currentPosition)}</Text>
-          <Text style={style.timerStyle}>{formatTime(duration)}</Text>
+        <View style={style.player}>
+          <AntDesign
+            name="banckward"
+            size={32}
+            color={theme.colors.SEARCHBAR}
+            onPress={handleSkipBackward}
+          />
+          <Icon
+            name={isPlay ? 'pause' : 'play'}
+            size={32}
+            color={theme.colors.SEARCHBAR}
+            onPress={handlePlayPress}
+          />
+          <AntDesign
+            name="forward"
+            size={32}
+            color={theme.colors.SEARCHBAR}
+            onPress={handleSkipForward}
+          />
         </View>
-      </View>
-      <View style={style.player}>
-        <AntDesign
-          name="banckward"
-          size={32}
-          color={theme.colors.SEARCHBAR}
-          onPress={handleSkipBackward}
-        />
-        <Icon
-          name={isPlay ? 'pause' : 'play'}
-          size={32}
-          color={theme.colors.SEARCHBAR}
-          onPress={handlePlayPress}
-        />
-        <AntDesign
-          name="forward"
-          size={32}
-          color={theme.colors.SEARCHBAR}
-          onPress={handleSkipForward}
-        />
-      </View>
-    </SafeAreaView>
+      </SafeAreaView>
+    </ImageBackground>
   );
 }
 

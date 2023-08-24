@@ -11,6 +11,7 @@ const styles = (theme: Theme) =>
       fontSize: 15,
       fontWeight: '500',
       paddingVertical: 6,
+      width: windowWidth - 40,
     },
     iconContainer: {
       alignSelf: 'center',

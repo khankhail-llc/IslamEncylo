@@ -27,9 +27,8 @@ export async function setupPlayer() {
     });
 
     isSetup = true;
-  } finally {
-    return isSetup;
   }
+  return isSetup;
 }
 
 export async function playbackService() {
