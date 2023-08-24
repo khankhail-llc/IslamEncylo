@@ -1,5 +1,5 @@
 import { useNavigation } from '@react-navigation/native';
-import React, { useState } from 'react';
+import React from 'react';
 import {
   Text, View, Switch, ImageBackground, SafeAreaView,
 } from 'react-native';
@@ -16,8 +16,6 @@ function SettingScreen() {
   const navigation = useNavigation();
   const theme = useTheme();
   const style = useThemedStyles(styles);
-  // const [currentTheme] = useState(theme.isLightTheme ? 'isDark' : 'isLight'); // Update this line
-  // console.log(currentTheme);
   const handleBackPress = () => {
     navigation.goBack();
   };

@@ -52,7 +52,6 @@ function AudioScreen() {
   }, [isPlay]);
 
   const initPlayer = useCallback(async () => {
-    console.log('initPlayer');
     await TrackPlayer.reset();
     await TrackPlayer.add(verses);
     handlePlayPress();
@@ -60,7 +59,6 @@ function AudioScreen() {
 
   const setupAndAddPlayer = async () => {
     const isPlayerSetup = await setupPlayer();
-    console.log('2nd. setupPlayer audioplayer');
     if (isPlayerSetup) {
       initPlayer();
     }

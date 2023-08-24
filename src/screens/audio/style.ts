@@ -20,7 +20,6 @@ const styles = (theme: Theme) => StyleSheet.create({
   headerStyle: {
     alignItems: 'center',
     alignSelf: 'center',
-    // backgroundColor: theme.colors.SEARCHBARCONTAINER,
     borderRadius: 8,
     flexDirection: 'row',
     justifyContent: 'space-between',
@@ -36,7 +35,6 @@ const styles = (theme: Theme) => StyleSheet.create({
     marginRight: 18,
   },
   outerContainer: {
-    // backgroundColor: theme.colors.THEME,
     flex: 1,
   },
   player: {
