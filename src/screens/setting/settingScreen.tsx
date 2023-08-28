@@ -6,6 +6,7 @@ import {
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
 import BackgroundImage from '../../assets/images/coverImages/launchScreen.jpeg';
+import BackgroundImageL from '../../assets/images/coverImages/launchScreenL.png';
 import useTheme from '../../theming/useTheme.ts';
 import useThemedStyles from '../../theming/useThemedStyles.ts';
 
@@ -15,13 +16,14 @@ function SettingScreen() {
   const navigation = useNavigation();
   const theme = useTheme();
   const style = useThemedStyles(styles);
-
   const handleBackPress = () => {
-    navigation.navigate('Home' as never);
+    navigation.goBack();
   };
 
+  const backgroundImage = theme.isLightTheme === true ? BackgroundImageL : BackgroundImage;
+
   return (
-    <ImageBackground source={BackgroundImage} style={style.backgroundImage}>
+    <ImageBackground source={backgroundImage} style={style.backgroundImage}>
       <SafeAreaView>
         <View style={style.headerStyle}>
           <Ionicons
@@ -33,7 +35,7 @@ function SettingScreen() {
           <Text style={style.headerText}>Setting</Text>
         </View>
         <View style={style.container}>
-          <Text style={style.textStyle}>Theme</Text>
+          <Text style={style.textStyle}>{theme.isLightTheme ? 'Dark' : 'Light'}</Text>
           <Switch value={theme.isLightTheme} onValueChange={theme.toggleTheme} />
         </View>
       </SafeAreaView>

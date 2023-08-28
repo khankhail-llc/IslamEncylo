@@ -4,17 +4,14 @@ import TrackPlayer, {
   Event,
 } from 'react-native-track-player';
 
-let isSetup = false;
-
 export async function setupPlayer() {
-  if (isSetup) {
-    return true; // Already set up, no need to initialize again
-  }
-
+  let isSetup = false;
   try {
-    await TrackPlayer.setupPlayer(); // Initialize TrackPlayer
+    await TrackPlayer.getCurrentTrack();
+    isSetup = true;
+  } catch {
+    await TrackPlayer.setupPlayer();
     await TrackPlayer.updateOptions({
-      // Set options for TrackPlayer
       android: {
         appKilledPlaybackBehavior: AppKilledPlaybackBehavior.StopPlaybackAndRemoveNotification,
       },
@@ -30,12 +27,7 @@ export async function setupPlayer() {
     });
 
     isSetup = true;
-  } catch (error) {
-    isSetup = false;
-    console.log('Error setting up TrackPlayer:', error);
-    throw error;
   }
-
   return isSetup;
 }
 
