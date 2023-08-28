@@ -1,5 +1,5 @@
 import Slider from '@react-native-community/slider';
-import { useNavigation, useRoute } from '@react-navigation/native';
+import { RouteProp, useNavigation, useRoute } from '@react-navigation/native';
 import React, {
   useCallback, useEffect, useMemo, useRef, useState,
 } from 'react';
@@ -23,11 +23,20 @@ import { setupPlayer } from '../../utils/trackPlayerServices';
 
 import styles from './style.ts';
 
+type RootStackParamList = {
+  AudioScreen: {
+    title: string;
+    surahNo: number;
+  };
+};
+
+type AudioScreenRouteProp = RouteProp<RootStackParamList, 'AudioScreen'>;
+
 function AudioScreen() {
   const navigation = useNavigation();
-  const {
-    params: { title, surahNo },
-  } = useRoute();
+  const route = useRoute<AudioScreenRouteProp>();
+
+  const { title, surahNo } = route.params;
   const style = useThemedStyles(styles);
   const theme = useTheme();
   const [isPlay, setIsPlay] = useState(false);
