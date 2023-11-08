@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "414486914635",
+    "project_id": "islam-encyclo",
+    "storage_bucket": "islam-encyclo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414486914635:android:6e5d63efe79de772a50fce",
+        "android_client_info": {
+          "package_name": "com.islamencyclo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN1K_UJJb10YusxHc2GmgiJXFlFPaFhQk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
