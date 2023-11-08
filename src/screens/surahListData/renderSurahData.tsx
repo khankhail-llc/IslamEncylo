@@ -23,7 +23,7 @@ function SurahItemComponent({ item, theme, style }: SurahDataProps) {
   const navigation = useNavigation();
 
   const handleSurahPress = () => {
-    navigation.navigate('AudioPlayer', { title: item.arabicTittle, surahNo: item.surahNo });
+    navigation.navigate('AudioPlayer', { title: item.arabicTittle, surahNo: item.surahNo } as never);
   };
 
   return (
